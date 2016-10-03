@@ -22,7 +22,7 @@
 		b=xmlDoc.getElementsByTagName("poem")[0].childNodes; //fetches all the "poem" tags
 		m=(b.length-1)/2;
 		s=0;
-		lc=0;
+		lc=1;
 		
 		for (k=0;k<m;k++)
 		{
@@ -32,22 +32,19 @@
 			for (j=0;j<n;j++)
 			{
 				document.write("<tr>");
-				if(lc%5==0)
-				{
-					if(lc==0)
-					{	
-						document.write("<td style='width:70px;'>"+1+"</td>");
-					}
-					else
-					{
-						document.write("<td style='width:70px;'>"+lc+"</td>");
-					}
-				}
-				else
-				{
-					document.write("<td></td>");				
-				}
-				lc++;
+                if(lc==1)
+                {
+                    document.write("<td style='width:70px;'>"+1+"</td>");
+                }
+                else if(lc%5==0)
+                {
+                    document.write("<td style='width:70px;'>"+lc+"</td>");
+                }
+                else
+                {
+                    document.write("<td></td>");
+                }
+                lc++;
 				x=xmlDoc.getElementsByTagName("l")[s].childNodes; // fetches "l" tags
 				y=xmlDoc.getElementsByTagName("l")[s].firstChild;
 				s++;
