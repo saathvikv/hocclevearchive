@@ -10,66 +10,79 @@
   }
   </style>
   <script>
-	var a="";
+	var filename = "";
 	$(document).ready(function(){
 		$(".poems").click(function (){
 
-		
-		a=$(this).attr('id');  // For fetching the 'id' value of the button clicked using class name
-		var b=$(this).val(); // For gettting the value of the button clicked
-		document.write("<a href='index.html'>Home</a> &nbsp<a href='indexes.html'>EETS Facsimile Edition Title Index</a>");
-		document.write("<center><h1><b>"+b+"</b></h1></center>"); // Displays name of the poem
-		xmlDoc=loadXMLDoc(a); // call to loadXMLDoc() for fetching the contents of XML file
-		//Following code goes through the DOM tree recurssively and diplays the poem 
-		b=xmlDoc.getElementsByTagName("poem")[0].childNodes; //fetches all the "poem" tags
-		m=(b.length-1)/2;
-		s=0;
-		lc=1;
-		
-		for (k=0;k<m;k++)
-		{
-			document.write("<table style='width:1000px;'>");
-			a=xmlDoc.getElementsByTagName("lg")[k].childNodes; // fetches all the "lg" tags
-			n=(a.length-1)/2;
-			for (j=0;j<n;j++)
+			filename = $(this).attr('id');  // For fetching the 'id' value of the button clicked using class name
+			var poem_name = $(this).val(); // For getting the value of the button clicked
+			console.log("this is current file_name: " + filename);
+			console.info("this is poem_name: " + poem_name);
+
+
+			// Right here is where the new html is written
+			document.write("<head>");
+			document.write("<link rel='stylesheet' href='css/foundation.css'>");
+			document.write("<link rel='stylesheet' href='css/app.css'>");
+
+			// <add our javascript FILE that overrwrites the mouse right click, and trigger the menu for searching>
+
+			document.write("</head>");
+			document.write("<a href='index.html'>Home</a> &nbsp<a href='indexes.html'>EETS Facsimile Edition Title Index</a>");
+			document.write("<center><h1><b>"+poem_name+"</b></h1></center>"); // Displays name of the poem
+
+			xmlDoc=loadXMLDoc(filename); // call to loadXMLDoc() for fetching the contents of XML file
+			//Following code goes through the DOM tree recurrsivly  and diplays the poem
+			poem_name=xmlDoc.getElementsByTagName("poem")[0].childNodes; //fetches all the "poem" tags
+			m=(poem_name.length-1)/2;
+			s=0;
+			lc=1;
+
+			for (k=0;k<m;k++)
 			{
-				document.write("<tr>");
-				if(lc==1)
+				document.write("<table style='width:1000px;'>");
+				filename=xmlDoc.getElementsByTagName("lg")[k].childNodes; // fetches all the "lg" tags
+				n=(filename.length-1)/2;
+				for (j=0;j<n;j++)
 				{
-					document.write("<td style='width:70px;'>"+1+"</td>");
-				}
-				else if(lc%5==0)
-				{
-					document.write("<td style='width:70px;'>"+lc+"</td>");
-				}
-				else
-				{
-					document.write("<td></td>");
-				}
-				lc++;
-				x=xmlDoc.getElementsByTagName("l")[s].childNodes; // fetches "l" tags
-				y=xmlDoc.getElementsByTagName("l")[s].firstChild;
-				s++;
-				document.write("<td>");
-				for(i=0;i<x.length;i++)
-				{
-					if (y.nodeType==1)
+					document.write("<tr>");
+					if(lc==1)
 					{
-						document.write(y.childNodes[0].nodeValue+" ");
+						document.write("<td style='width:70px;'>"+1+"</td>");
 					}
-					y=y.nextSibling;
+					else if(lc%5==0)
+					{
+						document.write("<td style='width:70px;'>"+lc+"</td>");
+					}
+					else
+					{
+						document.write("<td></td>");
+					}
+					lc++;
+					x=xmlDoc.getElementsByTagName("l")[s].childNodes; // fetches "l" tags
+					y=xmlDoc.getElementsByTagName("l")[s].firstChild;
+					s++;
+					document.write("<td>");
+					for(i=0;i<x.length;i++)
+					{
+						if (y.nodeType==1)
+						{
+							document.write(y.childNodes[0].nodeValue+" ");
+						}
+						y=y.nextSibling;
+					}
+					document.write("</td></tr>");
 				}
-				document.write("</td></tr>");
+				//document.write("<br/>");
+				document.write("</table>");
+				document.write("<br/>");
 			}
-			//document.write("<br/>");
-			document.write("</table>");
-			document.write("<br/>");
-		}
-		
+
+		});
 	});
-});
-</script>
+  </script>
  </head>
+
  <body>
   <a href="index.html">Home</a>
   <center>
