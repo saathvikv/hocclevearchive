@@ -1,0 +1,50 @@
+<html>
+    <head>
+    </head>
+
+    <body>
+    <!--todo: make a simple form to test out the search functionality-->
+        <script>
+            var xml;
+            var x;
+            function loadXMLDoc(dname)
+                {
+                    if (window.XMLHttpRequest)
+                    {
+                        xhttp=new XMLHttpRequest();
+                    }
+                    else
+                    {
+                        xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    xhttp.open("GET",dname,false);
+                    try {xhttp.responseType="msxml-document"} catch(err) {} // Helping IE
+                    xhttp.send("");
+                    return xhttp;
+                }
+
+                x=loadXMLDoc("HoccleveXMLFiles/output1.xml");
+                xml=x.responseXML;
+                path="/poem/lg/l/seg";
+
+                var nodes=xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+                var result=nodes.iterateNext();
+
+                if (document.implementation && document.implementation.createDocument) {
+                    while (result)
+                    {
+                        if( result.childNodes[0].nodeValue == 'that'){
+                            document.write(result.childNodes[0].nodeValue);
+                            document.write("<br>");
+                        }
+
+                        result = nodes.iterateNext();
+                    }
+                }
+
+
+        </script>
+
+    </body>
+
+</html>
