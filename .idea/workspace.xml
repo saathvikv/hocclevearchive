@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f7e43469-e58b-4319-8709-2c6ab045a8ae" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HoccleveHTMLJSFiles/Test.html" afterPath="$PROJECT_DIR$/HoccleveHTMLJSFiles/Test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HoccleveHTMLJSFiles/indexes.html" afterPath="$PROJECT_DIR$/HoccleveHTMLJSFiles/indexes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HoccleveHTMLJSFiles/js/loadxmldoc.js" afterPath="$PROJECT_DIR$/HoccleveHTMLJSFiles/js/loadxmldoc.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XML/NewXML/01-hoc.xml" afterPath="$PROJECT_DIR$/XML/NewXML/01-hoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XML/NewXML/02-hoc.xml" afterPath="$PROJECT_DIR$/XML/NewXML/02-hoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XML/NewXML/03-hoc.xml" afterPath="$PROJECT_DIR$/XML/NewXML/03-hoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XML/NewXML/04-hoc.xml" afterPath="$PROJECT_DIR$/XML/NewXML/04-hoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XML/NewXML/05-hoc.xml" afterPath="$PROJECT_DIR$/XML/NewXML/05-hoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XML/NewXML/06-hoc.xml" afterPath="$PROJECT_DIR$/XML/NewXML/06-hoc.xml" />
     </list>
     <ignored path="HoccleveHolographFiles.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,16 +54,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01-hoc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XML/NewXML/01-hoc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1032">
-              <caret line="670" column="9" selection-start-line="670" selection-start-column="9" selection-end-line="670" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="output1.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HoccleveXMLFiles/output1.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,26 +64,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foundation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/js/vendor/foundation.js">
+      <file leaf-file-name="indexes.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/indexes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7590">
-              <caret line="230" column="65" selection-start-line="230" selection-start-column="61" selection-end-line="230" selection-end-column="65" />
-              <folding />
+            <state relative-caret-position="298">
+              <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
+              <folding>
+                <marker date="1476571241820" expanded="true" signature="1725:1738" ph="..." />
+                <marker date="1476571241820" expanded="true" signature="1979:1990" ph="..." />
+                <marker date="1476571241820" expanded="true" signature="2075:2086" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexes.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/indexes.html">
+      <file leaf-file-name="01-hoc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XML/NewXML/01-hoc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
-              <folding>
-                <marker date="1476561668921" expanded="true" signature="1725:1738" ph="..." />
-                <marker date="1476561668921" expanded="true" signature="1979:1990" ph="..." />
-                <marker date="1476561668921" expanded="true" signature="2075:2086" ph="..." />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,8 +91,8 @@
       <file leaf-file-name="02-hoc.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XML/NewXML/02-hoc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="1096" column="4" selection-start-line="1096" selection-start-column="4" selection-end-line="1096" selection-end-column="4" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,18 +101,38 @@
       <file leaf-file-name="03-hoc.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XML/NewXML/03-hoc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1580">
-              <caret line="4380" column="0" selection-start-line="4380" selection-start-column="0" selection-end-line="4380" selection-end-column="0" />
+            <state relative-caret-position="132">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/Test.html">
+      <file leaf-file-name="04-hoc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XML/NewXML/04-hoc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+            <state relative-caret-position="1019">
+              <caret line="380" column="17" selection-start-line="380" selection-start-column="17" selection-end-line="380" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05-hoc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XML/NewXML/05-hoc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8617">
+              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="06-hoc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XML/NewXML/06-hoc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -141,6 +155,9 @@
         <option value="$PROJECT_DIR$/XML/NewXML/01-hoc.xml" />
         <option value="$PROJECT_DIR$/XML/NewXML/02-hoc.xml" />
         <option value="$PROJECT_DIR$/XML/NewXML/03-hoc.xml" />
+        <option value="$PROJECT_DIR$/XML/NewXML/04-hoc.xml" />
+        <option value="$PROJECT_DIR$/XML/NewXML/05-hoc.xml" />
+        <option value="$PROJECT_DIR$/XML/NewXML/06-hoc.xml" />
         <option value="$PROJECT_DIR$/HoccleveHTMLJSFiles/indexes.html" />
       </list>
     </option>
@@ -182,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -233,9 +251,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hoccleve" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Hoccleve" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HoccleveHTMLJSFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,11 +389,12 @@
       <workItem from="1476222461416" duration="4629000" />
       <workItem from="1476308885116" duration="1062000" />
       <workItem from="1476314098817" duration="14354000" />
+      <workItem from="1476569510892" duration="1732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31397000" />
+    <option name="totallyTimeSpent" value="33129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="2026" extended-state="6" />
@@ -371,19 +403,19 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24864683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -422,6 +454,84 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="e#1132#1139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/js/loadxmldoc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML/NewXML/01-hoc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22110">
+          <caret line="670" column="9" selection-start-line="670" selection-start-column="9" selection-end-line="670" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HoccleveXMLFiles/output1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/js/vendor/foundation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7590">
+          <caret line="230" column="65" selection-start-line="230" selection-start-column="61" selection-end-line="230" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/indexes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476571241820" expanded="true" signature="1725:1738" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1979:1990" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="2075:2086" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML/NewXML/02-hoc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36168">
+          <caret line="1096" column="4" selection-start-line="1096" selection-start-column="4" selection-end-line="1096" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML/NewXML/03-hoc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144540">
+          <caret line="4380" column="0" selection-start-line="4380" selection-start-column="0" selection-end-line="4380" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/Test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
@@ -443,9 +553,9 @@
         <state relative-caret-position="165">
           <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
           <folding>
-            <marker date="1476561668921" expanded="true" signature="1725:1738" ph="..." />
-            <marker date="1476561668921" expanded="true" signature="1979:1990" ph="..." />
-            <marker date="1476561668921" expanded="true" signature="2075:2086" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1725:1738" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1979:1990" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="2075:2086" ph="..." />
           </folding>
         </state>
       </provider>
@@ -481,9 +591,9 @@
         <state relative-caret-position="891">
           <caret line="27" column="115" selection-start-line="27" selection-start-column="115" selection-end-line="27" selection-end-column="115" />
           <folding>
-            <marker date="1476561668921" expanded="true" signature="1725:1738" ph="..." />
-            <marker date="1476561668921" expanded="true" signature="1979:1990" ph="..." />
-            <marker date="1476561668921" expanded="true" signature="2075:2086" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1725:1738" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1979:1990" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="2075:2086" ph="..." />
           </folding>
         </state>
       </provider>
@@ -494,9 +604,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476561668921" expanded="true" signature="1725:1738" ph="..." />
-            <marker date="1476561668921" expanded="true" signature="1979:1990" ph="..." />
-            <marker date="1476561668921" expanded="true" signature="2075:2086" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1725:1738" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1979:1990" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="2075:2086" ph="..." />
           </folding>
         </state>
       </provider>
@@ -517,9 +627,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1476561668921" expanded="true" signature="1725:1738" ph="..." />
-            <marker date="1476561668921" expanded="true" signature="1979:1990" ph="..." />
-            <marker date="1476561668921" expanded="true" signature="2075:2086" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1725:1738" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1979:1990" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="2075:2086" ph="..." />
           </folding>
         </state>
       </provider>
@@ -538,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -568,9 +677,9 @@
         <state relative-caret-position="1584">
           <caret line="48" column="21" selection-start-line="36" selection-start-column="16" selection-end-line="48" selection-end-column="21" />
           <folding>
-            <marker date="1476561668921" expanded="true" signature="1725:1738" ph="..." />
-            <marker date="1476561668921" expanded="true" signature="1979:1990" ph="..." />
-            <marker date="1476561668921" expanded="true" signature="2075:2086" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1725:1738" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1979:1990" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="2075:2086" ph="..." />
           </folding>
         </state>
       </provider>
@@ -580,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -602,14 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/js/vendor/foundation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7590">
-          <caret line="230" column="65" selection-start-line="230" selection-start-column="61" selection-end-line="230" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +740,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/Test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
+        <state relative-caret-position="825">
           <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
           <folding />
         </state>
@@ -654,18 +754,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/XML/NewXML/01-hoc.xml">
+    <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/js/vendor/foundation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="670" column="9" selection-start-line="670" selection-start-column="9" selection-end-line="670" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XML/NewXML/02-hoc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="1096" column="4" selection-start-line="1096" selection-start-column="4" selection-end-line="1096" selection-end-column="4" />
+        <state relative-caret-position="33">
+          <caret line="230" column="65" selection-start-line="230" selection-start-column="61" selection-end-line="230" selection-end-column="65" />
           <folding />
         </state>
       </provider>
@@ -678,22 +770,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/XML/NewXML/01-hoc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML/NewXML/02-hoc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/XML/NewXML/03-hoc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1580">
-          <caret line="4380" column="0" selection-start-line="4380" selection-start-column="0" selection-end-line="4380" selection-end-column="0" />
+        <state relative-caret-position="132">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML/NewXML/04-hoc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1019">
+          <caret line="380" column="17" selection-start-line="380" selection-start-column="17" selection-end-line="380" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML/NewXML/05-hoc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8617">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XML/NewXML/06-hoc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HoccleveHTMLJSFiles/indexes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="94" column="44" selection-start-line="94" selection-start-column="44" selection-end-line="94" selection-end-column="44" />
+        <state relative-caret-position="298">
+          <caret line="99" column="39" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="39" />
           <folding>
-            <marker date="1476561668921" expanded="true" signature="1725:1738" ph="..." />
-            <marker date="1476561668921" expanded="true" signature="1979:1990" ph="..." />
-            <marker date="1476561668921" expanded="true" signature="2075:2086" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1725:1738" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="1979:1990" ph="..." />
+            <marker date="1476571241820" expanded="true" signature="2075:2086" ph="..." />
           </folding>
         </state>
       </provider>
