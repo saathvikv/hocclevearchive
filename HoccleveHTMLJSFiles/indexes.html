@@ -34,32 +34,32 @@
 			xmlDoc=loadXMLDoc(filename); // call to loadXMLDoc() for fetching the contents of XML file
 			//Following code goes through the DOM tree recurrsivly  and diplays the poem
 
-			var poem_tag =xmlDoc.getElementsByTagName("poem")[0].childNodes; //fetches all the "poem" tags
-			m=(poem_tag.length-1)/2;
-			s=0;
-			lc=1;
+			var poem_tags = xmlDoc.getElementsByTagName("poem")[0].childNodes; //fetches all the "poem" tags
+			var m=(poem_tags.length-1)/2; /*possibly for formatting the tables?*/
+			var s=0;
+			var line_count=1;
 
-			for (k=0;k<m;k++)
+			for (var line_group_index = 0; line_group_index < m; line_group_index++)
 			{
 				document.write("<table style='width:1000px;'>");
-				var lg_tags =xmlDoc.getElementsByTagName("lg")[k].childNodes; // fetches all the "lg" tags
+				var lg_tags =xmlDoc.getElementsByTagName("lg")[line_group_index].childNodes; // fetches all the "lg" tags
 				n=(lg_tags.length-1)/2;
 				for (j=0;j<n;j++)
 				{
 					document.write("<tr>");
-					if(lc==1)
+					if(line_count==1)
 					{
 						document.write("<td style='width:70px;'>"+1+"</td>");
 					}
-					else if(lc%5==0)
+					else if(line_count%5==0)
 					{
-						document.write("<td style='width:70px;'>"+lc+"</td>");
+						document.write("<td style='width:70px;'>"+line_count+"</td>");
 					}
 					else
 					{
 						document.write("<td></td>");
 					}
-					lc++;
+					line_count++;
 					x=xmlDoc.getElementsByTagName("l")[s].childNodes; // fetches "l" tags
 					y=xmlDoc.getElementsByTagName("l")[s].firstChild;
 					s++;
