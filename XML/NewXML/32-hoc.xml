@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <poem id="32-hoc">
 <lg type="stanza" n="1" rhyme="royal">
 <l n="1">
@@ -7,4 +8,15 @@
 <seg type="word" me_root="her" pos="adv">Heer</seg><seg type="word" me_root="folwen" pos="v%pr_3">folwith</seg><seg type="word" me_root="a" pos="indef_art">a</seg><seg type="word" me_root="lessoun" pos="n">lessoun</seg><seg type="word" me_root="of" pos="prep">of</seg><seg type="word" me_root="hevinesse" pos="n">heuynesse</seg>
 </l>
 </lg>
+=======
+<poem id="32-hoc">
+<lg type="stanza" n="1" rhyme="royal">
+<l n="1">
+<seg type="word" me_root="after" pos="prep">Aftir</seg><seg type="word" me_root="oure" pos="pron%gen">our</seg><seg type="word" me_root="song" pos="n">song</seg><seg type="word" me_root="oure" pos="pron%gen">our</seg><seg type="word" me_root="mirthe" pos="n">mirthe</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="oure" pos="pron%gen">our</seg><seg type="word" me_root="gladnesse" pos="n">gladnesse</seg>
+</l>
+<l n="2">
+<seg type="word" me_root="her" pos="adv">Heer</seg><seg type="word" me_root="folwen" pos="v%pr_3">folwith</seg><seg type="word" me_root="a" pos="indef_art">a</seg><seg type="word" me_root="lessoun" pos="n">lessoun</seg><seg type="word" me_root="of" pos="prep">of</seg><seg type="word" me_root="hevinesse" pos="n">heuynesse</seg>
+</l>
+</lg>
+>>>>>>> dev
 </poem>
