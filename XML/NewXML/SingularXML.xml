@@ -16151,6 +16151,7 @@
 <seg type="word" me_root="thre" pos="num#adj">three</seg>
 </l>
 </lg>
+</poem>
 <poem id="31-hoc">
 <lg type="stanza" n="1" rhyme="royal">
 <l n=" 1 ">
@@ -16428,7 +16429,8 @@
 <seg type="word" me_root="her" pos="adv">Heer</seg><seg type="word" me_root="folwen" pos="v%pr_3">folwith</seg><seg type="word" me_root="a" pos="indef_art">a</seg><seg type="word" me_root="lessoun" pos="n">lessoun</seg><seg type="word" me_root="of" pos="prep">of</seg><seg type="word" me_root="hevinesse" pos="n">heuynesse</seg>
 </l>
 </lg>
-</poem><poem id="33-hoc">
+</poem>
+<poem id="33-hoc">
 <lg type="stanza" n="1" rhyme="royal">
 <l n=" 1 ">
 <seg type="word" me_root="sin" pos="conj">Syn</seg>
