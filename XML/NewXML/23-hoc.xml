@@ -13,7 +13,7 @@
 <seg type="word" me_root="that" pos="conj">That</seg><seg type="word" me_root="thou" pos="pron%nom">thou</seg><seg type="word" me_root="willen" pos="v%pt_2">woldest</seg><seg type="word" me_root="ben" pos="v%inf">be</seg><seg type="word" me_root="treten" pos="v%ppl">treted</seg><seg type="word" me_root="in" pos="prep">in</seg><seg type="word" me_root="swich" pos="gram_adj">swich</seg><seg type="word" me_root="wise" pos="n2">wyse</seg>
 </l>
 <l n="5">
-<seg type="word" me_root="what" pos="pron_interr">What</seg><seg type="word" me_root="causen" pos="v1%pt_3">causid</seg><seg type="word" me_root="the" pos="pron2%obj">thee</seg><seg type="word" me_root="to" pos="part">to</seg><seg type="word" me_root="taken" pos="v%inf">take</seg><seg type="word" me_root="that" pos="art&gram_adj">that</seg><seg type="word" me_root="emprise" pos="n">empryse</seg>
+<seg type="word" me_root="what" pos="pron_interr">What</seg><seg type="word" me_root="causen" pos="v1%pt_3">causid</seg><seg type="word" me_root="the" pos="pron2%obj">thee</seg><seg type="word" me_root="to" pos="part">to</seg><seg type="word" me_root="taken" pos="v%inf">take</seg><seg type="word" me_root="that" pos="art_gram_adj">that</seg><seg type="word" me_root="emprise" pos="n">empryse</seg>
 </l>
 <l n="6">
 <seg type="word" me_root="what" pos="pron_interr">What</seg><seg type="word" me_root="ben" pos="v%pt_3">was</seg><seg type="word" me_root="thin" pos="pron%gen">thy</seg><seg type="word" me_root="gilt" pos="n1">gilt</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="thin" pos="pron%gen">thyn</seg><seg type="word" me_root="offense" pos="n">offense</seg><seg type="word" me_root="ich" pos="pron%nom">I</seg><seg type="word" me_root="preien" pos="v1%pr_1">preye</seg>
@@ -88,7 +88,7 @@
 <seg type="word" me_root="god" pos="n1#propn">God</seg><seg type="word" me_root="kepen" pos="v%pr_3">keepith</seg><seg type="word" me_root="him" pos="pron%obj">him</seg><seg type="word" me_root="from" pos="prep">fro</seg><seg type="word" me_root="punishinge" pos="ger">punisshyng</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="tene" pos="n2">teene</seg>
 </l>
 <l n="28">
-<seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="al" pos="gram_adj">al</seg><seg type="word" me_root="that" pos="art&gram_adj">that</seg><seg type="word" me_root="charge" pos="n">charge</seg><seg type="word" me_root="him" pos="pron%obj">him</seg><seg type="word" me_root="listen" pos="v1%pr_3">list</seg><seg type="word" me_root="for" pos="prep">for</seg><seg type="word" me_root="him" pos="pron%obj">him</seg><seg type="word" me_root="sustenen" pos="v%inf">susteene</seg>
+<seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="al" pos="gram_adj">al</seg><seg type="word" me_root="that" pos="art_gram_adj">that</seg><seg type="word" me_root="charge" pos="n">charge</seg><seg type="word" me_root="him" pos="pron%obj">him</seg><seg type="word" me_root="listen" pos="v1%pr_3">list</seg><seg type="word" me_root="for" pos="prep">for</seg><seg type="word" me_root="him" pos="pron%obj">him</seg><seg type="word" me_root="sustenen" pos="v%inf">susteene</seg>
 </l>
 </lg>
 <lg type="stanza" n="5" rhyme="royal">
@@ -157,7 +157,7 @@
 <seg type="word" me_root="min" pos="pron%gen">My</seg><seg type="word" me_root="lust" pos="n">lust</seg><seg type="word" me_root="obeien" pos="v%pt_3">obeied</seg><seg type="word" me_root="unto" pos="prep">vnto</seg><seg type="word" me_root="glotonie" pos="n">glotonye</seg>
 </l>
 <l n="49">
-<seg type="word" me_root="but" pos="conj">But</seg><seg type="word" me_root="the" pos="pron2%obj">thee</seg><seg type="word" me_root="listen" pos="v1%pr_3">list</seg><seg type="word" me_root="not" pos="adv">nat</seg><seg type="word" me_root="the" pos="pron2%obj">thee</seg><seg type="word" me_root="to" pos="prep">to</seg><seg type="word" me_root="that" pos="art&gram_adj">that</seg><seg type="word" me_root="lust" pos="n">lust</seg><seg type="word" me_root="applien" pos="v%inf">applie</seg>
+<seg type="word" me_root="but" pos="conj">But</seg><seg type="word" me_root="the" pos="pron2%obj">thee</seg><seg type="word" me_root="listen" pos="v1%pr_3">list</seg><seg type="word" me_root="not" pos="adv">nat</seg><seg type="word" me_root="the" pos="pron2%obj">thee</seg><seg type="word" me_root="to" pos="prep">to</seg><seg type="word" me_root="that" pos="art_gram_adj">that</seg><seg type="word" me_root="lust" pos="n">lust</seg><seg type="word" me_root="applien" pos="v%inf">applie</seg>
 </l>
 </lg>
 <lg type="stanza" n="8" rhyme="royal">
@@ -226,7 +226,7 @@
 <seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="graunten" pos="v%imp">graunte</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="grace" pos="n">grace</seg><seg type="word" me_root="the" pos="pron2%obj">thee</seg><seg type="word" me_root="to" pos="part">to</seg><seg type="word" me_root="loven" pos="v1%inf">love</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="dreden" pos="v%inf">drede</seg>
 </l>
 <l n="70">
-<seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="yeven" pos="v%imp">yeue</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="heven" pos="n">heuene</seg><seg type="word" me_root="whan" pos="adv&conj">whan</seg><seg type="word" me_root="that" pos="part">that</seg><seg type="word" me_root="we" pos="pron%pl_nom">we</seg><seg type="word" me_root="ben" pos="v%pr_pl">be</seg><seg type="word" me_root="ded" pos="adj">dede</seg>
+<seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="yeven" pos="v%imp">yeue</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="heven" pos="n">heuene</seg><seg type="word" me_root="whan" pos="adv_conj">whan</seg><seg type="word" me_root="that" pos="part">that</seg><seg type="word" me_root="we" pos="pron%pl_nom">we</seg><seg type="word" me_root="ben" pos="v%pr_pl">be</seg><seg type="word" me_root="ded" pos="adj">dede</seg>
 </l>
 </lg>
 </poem>

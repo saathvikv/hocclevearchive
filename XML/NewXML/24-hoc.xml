@@ -116,7 +116,7 @@
 </lg>
 <lg type="stanza" n="6" rhyme="royal">
 <l n="36">
-<seg type="word" me_root="wher" pos="adv&conj">Wher</seg><seg type="word" me_root="thou" pos="pron%nom">thou</seg><seg type="word" me_root="maken" pos="v1%pr_2">makist</seg><seg type="word" me_root="thin" pos="pron%gen">thyn</seg><seg type="word" me_root="habitacioun" pos="n">habitacioun</seg>
+<seg type="word" me_root="wher" pos="adv_conj">Wher</seg><seg type="word" me_root="thou" pos="pron%nom">thou</seg><seg type="word" me_root="maken" pos="v1%pr_2">makist</seg><seg type="word" me_root="thin" pos="pron%gen">thyn</seg><seg type="word" me_root="habitacioun" pos="n">habitacioun</seg>
 </l>
 <l n="37">
 <seg type="word" me_root="we" pos="pron%pl_nom">We</seg><seg type="word" me_root="knouen" pos="v%pr_pl">knowen</seg><seg type="word" me_root="wel" pos="adv">weel</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="fulli" pos="adv">fully</seg><seg type="word" me_root="leven" pos="v4%pr_pl">leeven</seg><seg type="word" me_root="we" pos="pron%pl_nom">we</seg>
@@ -231,8 +231,8 @@
 </lg>
 </poem>
 
-<frag>
+<!-- <frag>
 <l n="70">
 <seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="e" pos="de">de</seg>
 </l>
-</frag>
+</frag> -->

@@ -62,7 +62,7 @@
 <seg type="word" me_root="the" pos="pron2%obj">Thee</seg><seg type="word" me_root="not" pos="adv">nat</seg><seg type="word" me_root="to" pos="part">to</seg><seg type="word" me_root="reuen" pos="v1%inf">reewe</seg><seg type="word" me_root="on" pos="prep">on</seg><seg type="word" me_root="oure" pos="pron%gen">our</seg><seg type="word" me_root="sinful" pos="adj">synful</seg><seg type="word" me_root="grevaunce" pos="n">grevaunce</seg>
 </l>
 <l n="20">
-<seg type="word" me_root="for-thi" pos="adv&conj">Forthy,</seg><seg type="word" me_root="ladie" pos="n">lady</seg><seg type="word" me_root="benigne" pos="adj">benigne</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="merciable" pos="adj">merciable</seg>
+<seg type="word" me_root="for-thi" pos="adv_conj">Forthy,</seg><seg type="word" me_root="ladie" pos="n">lady</seg><seg type="word" me_root="benigne" pos="adj">benigne</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="merciable" pos="adj">merciable</seg>
 </l>
 <l n="21">
 <seg type="word" me_root="unto" pos="prep">Vnto</seg><seg type="word" me_root="thin" pos="pron%gen">thy</seg><seg type="word" me_root="sone" pos="n">sone</seg><seg type="word" me_root="maken" pos="v1%imp">make</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="acceptable" pos="adj">acceptable</seg>

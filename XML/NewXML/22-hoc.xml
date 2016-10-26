@@ -10,7 +10,7 @@
 <seg type="word" me_root="ben" pos="v%pr_2">Art</seg><seg type="word" me_root="ever-mor" pos="adv">everemo</seg><seg type="word" me_root="for" pos="prep">for</seg><seg type="word" me_root="oure" pos="pron%gen">our</seg><seg type="word" me_root="savacioun" pos="n">sauuacion</seg>
 </l>
 <l n="4">
-<seg type="word" me_root="redi" pos="adj3">Reedy</seg><seg type="word" me_root="to" pos="part">to</seg><seg type="word" me_root="heren" pos="v%inf">heere</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="whan" pos="adv&conj">whan</seg><seg type="word" me_root="we" pos="pron%pl_nom">we</seg><seg type="word" me_root="to" pos="prep">to</seg><seg type="word" me_root="the" pos="pron2%obj">thee</seg><seg type="word" me_root="callen" pos="v%pr_pl">calle</seg>
+<seg type="word" me_root="redi" pos="adj3">Reedy</seg><seg type="word" me_root="to" pos="part">to</seg><seg type="word" me_root="heren" pos="v%inf">heere</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="whan" pos="adv_conj">whan</seg><seg type="word" me_root="we" pos="pron%pl_nom">we</seg><seg type="word" me_root="to" pos="prep">to</seg><seg type="word" me_root="the" pos="pron2%obj">thee</seg><seg type="word" me_root="callen" pos="v%pr_pl">calle</seg>
 </l>
 <l n="5">
 <seg type="word" me_root="in" pos="prep">In</seg><seg type="word" me_root="ani" pos="gram_adj">any</seg><seg type="word" me_root="cause" pos="n">cause</seg><seg type="word" me_root="that" pos="pron_rel">that</seg><seg type="word" me_root="mouen" pos="v3%pr_3">may</seg><seg type="word" me_root="happen" pos="v1%inf">happe</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="fallen" pos="v%inf">falle</seg>
@@ -27,7 +27,7 @@
 <seg type="word" me_root="for" pos="conj">For</seg><seg type="word" me_root="thou" pos="pron%nom">thou</seg><seg type="word" me_root="fader" pos="n">fadir</seg><seg type="word" me_root="ben" pos="v%pr_2">art</seg><seg type="word" me_root="treuth" pos="n">trouthe</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="verite" pos="n">veritee</seg>
 </l>
 <l n="9">
-<seg type="word" me_root="thin" pos="pron%gen">Thyn</seg><seg type="word" me_root="ouen" pos="adj">owne</seg><seg type="word" me_root="sone" pos="n">sone</seg><seg type="word" me_root="that" pos="art&gram_adj">that</seg><seg type="word" me_root="same" pos="pron">same</seg><seg type="word" me_root="ben" pos="v%pr_3">is</seg><seg type="word" me_root="also" pos="adv">also</seg>
+<seg type="word" me_root="thin" pos="pron%gen">Thyn</seg><seg type="word" me_root="ouen" pos="adj">owne</seg><seg type="word" me_root="sone" pos="n">sone</seg><seg type="word" me_root="that" pos="art_gram_adj">that</seg><seg type="word" me_root="same" pos="pron">same</seg><seg type="word" me_root="ben" pos="v%pr_3">is</seg><seg type="word" me_root="also" pos="adv">also</seg>
 </l>
 <l n="10">
 <seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="sin" pos="conj">syn</seg><seg type="word" me_root="hit" pos="pron">it</seg><seg type="word" me_root="so" pos="adv">so</seg><seg type="word" me_root="ben" pos="v%pr_3">is</seg><seg type="word" me_root="what" pos="pron_interr">what</seg><seg type="word" me_root="mouen" pos="v3%pr_3">may</seg><seg type="word" me_root="bettre" pos="adj%comp">bettre</seg><seg type="word" me_root="ben" pos="v%inf">be</seg>
@@ -231,7 +231,7 @@
 </lg>
 <lg type="stanza" n="11" rhyme="royal">
 <l n="71">
-<seg type="word" me_root="for" pos="conj">For</seg><seg type="word" me_root="whan" pos="adv&conj">whan</seg><seg type="word" me_root="his" pos="pron1%gen">his</seg><seg type="word" me_root="bodi" pos="n">body</seg><seg type="word" me_root="scourgen" pos="v%ppl">scourgid</seg><seg type="word" me_root="ben" pos="v%pt_3">was</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="beten" pos="v1%ppl">bete</seg>
+<seg type="word" me_root="for" pos="conj">For</seg><seg type="word" me_root="whan" pos="adv_conj">whan</seg><seg type="word" me_root="his" pos="pron1%gen">his</seg><seg type="word" me_root="bodi" pos="n">body</seg><seg type="word" me_root="scourgen" pos="v%ppl">scourgid</seg><seg type="word" me_root="ben" pos="v%pt_3">was</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="beten" pos="v1%ppl">bete</seg>
 </l>
 <l n="72">
 <seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="al" pos="gram_adj">al</seg><seg type="word" me_root="bispeten" pos="v%ppl">byspet</seg><seg type="word" me_root="ben" pos="v%pt_3">was</seg><seg type="word" me_root="his" pos="pron1%gen">his</seg><seg type="word" me_root="blessed" pos="ppl">blessid</seg><seg type="word" me_root="visage" pos="n">visage</seg>
@@ -277,7 +277,7 @@
 </lg>
 <lg type="stanza" n="13" rhyme="royal">
 <l n="85">
-<seg type="word" me_root="he" pos="pron1%nom">He</seg><seg type="word" me_root="ben" pos="v%pr_3">is</seg><seg type="word" me_root="that" pos="art&gram_adj">that</seg><seg type="word" me_root="mek" pos="adj">meek</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="spotles" pos="adj">spotlees</seg><seg type="word" me_root="innocent" pos="adj">Innocent</seg>
+<seg type="word" me_root="he" pos="pron1%nom">He</seg><seg type="word" me_root="ben" pos="v%pr_3">is</seg><seg type="word" me_root="that" pos="art_gram_adj">that</seg><seg type="word" me_root="mek" pos="adj">meek</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="spotles" pos="adj">spotlees</seg><seg type="word" me_root="innocent" pos="adj">Innocent</seg>
 </l>
 <l n="86">
 <seg type="word" me_root="that" pos="pron_rel">That</seg><seg type="word" me_root="for" pos="prep">for</seg><seg type="word" me_root="oure" pos="pron%gen">our</seg><seg type="word" me_root="gilt" pos="n1">gilt</seg><seg type="word" me_root="to" pos="part">to</seg><seg type="word" me_root="dien" pos="v%inf">dye</seg><seg type="word" me_root="no-thing" pos="adv">nothyng</seg><seg type="word" me_root="dreden" pos="v%pt_3">dradde</seg>
@@ -289,7 +289,7 @@
 <seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="in" pos="prep">in</seg><seg type="word" me_root="his" pos="pron1%gen">his</seg><seg type="word" me_root="torment" pos="n">torment</seg><seg type="word" me_root="ful" pos="adv">ful</seg><seg type="word" me_root="gret" pos="adj%sg">greet</seg><seg type="word" me_root="delite" pos="n1">delyt</seg><seg type="word" me_root="haven" pos="v%pt_3">hadde</seg>
 </l>
 <l n="89">
-<seg type="word" me_root="remembren" pos="v%prp_abs">Remembrynge</seg><seg type="word" me_root="hou" pos="adv&conj">how</seg><seg type="word" me_root="we" pos="pron%pl_nom">we</seg><seg type="word" me_root="sinful" pos="adj">synful</seg><seg type="word" me_root="folk" pos="n%pl">folkes</seg><seg type="word" me_root="badde" pos="adj">badde</seg>
+<seg type="word" me_root="remembren" pos="v%prp_abs">Remembrynge</seg><seg type="word" me_root="hou" pos="adv_conj">how</seg><seg type="word" me_root="we" pos="pron%pl_nom">we</seg><seg type="word" me_root="sinful" pos="adj">synful</seg><seg type="word" me_root="folk" pos="n%pl">folkes</seg><seg type="word" me_root="badde" pos="adj">badde</seg>
 </l>
 <l n="90">
 <seg type="word" me_root="redemen" pos="v%ppl">Redempt</seg><seg type="word" me_root="shulen" pos="v1%pt_3">sholde</seg><seg type="word" me_root="ben" pos="v%inf">be</seg><seg type="word" me_root="thurgh" pos="prep">thurgh</seg><seg type="word" me_root="his" pos="pron1%gen">his</seg><seg type="word" me_root="passioun" pos="n">passioun</seg>
@@ -309,7 +309,7 @@
 <seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="on" pos="prep">on</seg><seg type="word" me_root="the" pos="def_art">the</seg><seg type="word" me_root="crois" pos="n">crois</seg><seg type="word" me_root="he" pos="pron1%nom">he</seg><seg type="word" me_root="dien" pos="v%pt_3">dyde</seg><seg type="word" me_root="for" pos="prep">for</seg><seg type="word" me_root="oure" pos="pron%gen">our</seg><seg type="word" me_root="sake" pos="n">sake</seg>
 </l>
 <l n="95">
-<seg type="word" me_root="that" pos="art&gram_adj">That</seg><seg type="word" me_root="tender" pos="adj">tendre</seg><seg type="word" me_root="loven" pos="v1#adj%prp">lovyng</seg><seg type="word" me_root="lord" pos="n">lord</seg><seg type="word" me_root="to" pos="prep">to</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="ech_on" pos="pron">echoon</seg>
+<seg type="word" me_root="that" pos="art_gram_adj">That</seg><seg type="word" me_root="tender" pos="adj">tendre</seg><seg type="word" me_root="loven" pos="v1#adj%prp">lovyng</seg><seg type="word" me_root="lord" pos="n">lord</seg><seg type="word" me_root="to" pos="prep">to</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="ech_on" pos="pron">echoon</seg>
 </l>
 <l n="96">
 <seg type="word" me_root="swich" pos="gram_adj">Swich</seg><seg type="word" me_root="a" pos="indef_art">a</seg><seg type="word" me_root="lovere" pos="n2">lovere</seg><seg type="word" me_root="ben" pos="v%pt_3">was</seg><seg type="word" me_root="ther" pos="adv">ther</seg><seg type="word" me_root="never" pos="adv">neuere</seg><seg type="word" me_root="non" pos="pron">noon</seg>
@@ -341,12 +341,12 @@
 <seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="on" pos="prep">on</seg><seg type="word" me_root="thin" pos="pron%gen">thy</seg><seg type="word" me_root="sone" pos="n">sone</seg><seg type="word" me_root="preven" pos="v%imp">preeue</seg><seg type="word" me_root="hit" pos="pron">hit</seg><seg type="word" me_root="her" pos="adv">heere</seg><seg type="word" me_root="in" pos="prep">in</seg><seg type="word" me_root="dede" pos="n">deede</seg>
 </l>
 <l n="105">
-<seg type="word" me_root="biholden" pos="v%imp">Beholde</seg><seg type="word" me_root="his" pos="pron1%gen">his</seg><seg type="word" me_root="side" pos="n%pl">sydes</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="sen" pos="v1%imp">see</seg><seg type="word" me_root="hou" pos="adv&conj">how</seg><seg type="word" me_root="thei" pos="pron%pl_nom">they</seg><seg type="word" me_root="bleden" pos="v%pr_pl">bleede</seg>
+<seg type="word" me_root="biholden" pos="v%imp">Beholde</seg><seg type="word" me_root="his" pos="pron1%gen">his</seg><seg type="word" me_root="side" pos="n%pl">sydes</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="sen" pos="v1%imp">see</seg><seg type="word" me_root="hou" pos="adv_conj">how</seg><seg type="word" me_root="thei" pos="pron%pl_nom">they</seg><seg type="word" me_root="bleden" pos="v%pr_pl">bleede</seg>
 </l>
 </lg>
 <lg type="stanza" n="16" rhyme="royal">
 <l n="106">
-<seg type="word" me_root="his" pos="pron1%gen">His</seg><seg type="word" me_root="giltles" pos="adj">giltlees</seg><seg type="word" me_root="honde" pos="n%pl">handes</seg><seg type="word" me_root="hou" pos="adv&conj">how</seg><seg type="word" me_root="thei" pos="pron%pl_nom">they</seg><seg type="word" me_root="stremen" pos="v%pr_pl">stremen</seg><seg type="word" me_root="sen" pos="v1%imp">see</seg>
+<seg type="word" me_root="his" pos="pron1%gen">His</seg><seg type="word" me_root="giltles" pos="adj">giltlees</seg><seg type="word" me_root="honde" pos="n%pl">handes</seg><seg type="word" me_root="hou" pos="adv_conj">how</seg><seg type="word" me_root="thei" pos="pron%pl_nom">they</seg><seg type="word" me_root="stremen" pos="v%pr_pl">stremen</seg><seg type="word" me_root="sen" pos="v1%imp">see</seg>
 </l>
 <l n="107">
 <seg type="word" me_root="with" pos="prep">With</seg><seg type="word" me_root="blodi" pos="adj">blody</seg><seg type="word" me_root="strem" pos="n%pl">stremes</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="that" pos="pron">that</seg><seg type="word" me_root="we" pos="pron%pl_nom">we</seg><seg type="word" me_root="haven" pos="v%pr_pl">han</seg><seg type="word" me_root="werken" pos="v%ppl">wroght</seg>
@@ -358,7 +358,7 @@
 <seg type="word" me_root="foryeven" pos="v%imp">Foryeve</seg><seg type="word" me_root="hit" pos="pron">it</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="and" pos="conj">and</seg><seg type="word" me_root="revolven" pos="v%imp">reuolue</seg><seg type="word" me_root="in" pos="prep">in</seg><seg type="word" me_root="thin" pos="pron%gen">thy</seg><seg type="word" me_root="thought" pos="n">thoght</seg>
 </l>
 <l n="110">
-<seg type="word" me_root="hou" pos="adv&conj">How</seg><seg type="word" me_root="dere" pos="adv">deere</seg><seg type="word" me_root="that" pos="conj">that</seg><seg type="word" me_root="thin" pos="pron%gen">thy</seg><seg type="word" me_root="sone" pos="n">sone</seg><seg type="word" me_root="haven" pos="v%pr_3">hath</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="bien" pos="v%ppl">boght</seg>
+<seg type="word" me_root="hou" pos="adv_conj">How</seg><seg type="word" me_root="dere" pos="adv">deere</seg><seg type="word" me_root="that" pos="conj">that</seg><seg type="word" me_root="thin" pos="pron%gen">thy</seg><seg type="word" me_root="sone" pos="n">sone</seg><seg type="word" me_root="haven" pos="v%pr_3">hath</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="bien" pos="v%ppl">boght</seg>
 </l>
 <l n="111">
 <seg type="word" me_root="at" pos="prep">At</seg><seg type="word" me_root="gret" pos="adj%comp">gretter</seg><seg type="word" me_root="pris" pos="n1">prys</seg><seg type="word" me_root="ne" pos="adv">ne</seg><seg type="word" me_root="mouen" pos="v3%pt_3">mighte</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="no" pos="gram_adj">no</seg><seg type="word" me_root="man" pos="n">man</seg><seg type="word" me_root="bien" pos="v%inf">bye</seg>
@@ -456,7 +456,7 @@
 <seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="stifli" pos="adv">stifly</seg><seg type="word" me_root="graunten" pos="v%imp">graunte</seg><seg type="word" me_root="us" pos="pron%pl_obj">vs</seg><seg type="word" me_root="in" pos="prep">in</seg><seg type="word" me_root="thin" pos="pron%gen">thy</seg><seg type="word" me_root="cause" pos="n">cause</seg><seg type="word" me_root="stonden" pos="v%inf">stonde</seg>
 </l>
 <l n="140">
-<seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="flitten" pos="v%inf">flitte</seg><seg type="word" me_root="not" pos="adv">nat</seg><seg type="word" me_root="whan" pos="adv&conj">whan</seg><seg type="word" me_root="we" pos="pron%pl_nom">we</seg><seg type="word" me_root="taken" pos="v%pr_pl">take</seg><seg type="word" me_root="hit" pos="pron">it</seg><seg type="word" me_root="on" pos="prep">on</seg><seg type="word" me_root="honde" pos="n">honde</seg>
+<seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="flitten" pos="v%inf">flitte</seg><seg type="word" me_root="not" pos="adv">nat</seg><seg type="word" me_root="whan" pos="adv_conj">whan</seg><seg type="word" me_root="we" pos="pron%pl_nom">we</seg><seg type="word" me_root="taken" pos="v%pr_pl">take</seg><seg type="word" me_root="hit" pos="pron">it</seg><seg type="word" me_root="on" pos="prep">on</seg><seg type="word" me_root="honde" pos="n">honde</seg>
 </l>
 </lg>
 </poem>

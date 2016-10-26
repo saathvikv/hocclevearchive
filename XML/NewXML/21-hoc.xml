@@ -27,7 +27,7 @@
 </lg>
 <lg type="stanza" n="2" rhyme="royal">
 <l n="9">
-<seg type="word" me_root="but" pos="conj">But</seg><seg type="word" me_root="o" pos="num#adj">o</seg><seg type="word" me_root="thing" pos="n">thyng</seg><seg type="word" me_root="witen" pos="v1%pr_1">woot</seg><seg type="word" me_root="ich" pos="pron%nom">I</seg><seg type="word" me_root="wel" pos="adv">wel</seg><seg type="word" me_root="gon" pos="v%imp">go</seg><seg type="word" me_root="wher" pos="adv&conj">wher</seg><seg type="word" me_root="thou" pos="pron%nom">thou</seg><seg type="word" me_root="gon" pos="v%pr_2">go</seg>
+<seg type="word" me_root="but" pos="conj">But</seg><seg type="word" me_root="o" pos="num#adj">o</seg><seg type="word" me_root="thing" pos="n">thyng</seg><seg type="word" me_root="witen" pos="v1%pr_1">woot</seg><seg type="word" me_root="ich" pos="pron%nom">I</seg><seg type="word" me_root="wel" pos="adv">wel</seg><seg type="word" me_root="gon" pos="v%imp">go</seg><seg type="word" me_root="wher" pos="adv_conj">wher</seg><seg type="word" me_root="thou" pos="pron%nom">thou</seg><seg type="word" me_root="gon" pos="v%pr_2">go</seg>
 </l>
 <l n="10">
 <seg type="word" me_root="ich" pos="pron%nom">I</seg><seg type="word" me_root="ben" pos="v%pr_1">am</seg><seg type="word" me_root="so" pos="adv">so</seg><seg type="word" me_root="prive" pos="adj1">pryuee</seg><seg type="word" me_root="unto" pos="prep">vnto</seg><seg type="word" me_root="thin" pos="pron%gen">thy</seg><seg type="word" me_root="sentence" pos="n">sentence</seg>
@@ -79,8 +79,8 @@
 </lg>
 </poem>
 
-<frag>
+<!-- <frag>
 <l n="22">
 <seg type="word" me_root="and" pos="conj*">And</seg>
 </l>
-</frag>
+</frag> -->
