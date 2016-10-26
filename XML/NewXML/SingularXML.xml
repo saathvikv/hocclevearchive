@@ -11005,6 +11005,7 @@
 <seg type="word" me_root="to" pos="prep">to</seg>
 <seg type="word" me_root="here" pos="pron">hir</seg>
 </l>
+</lg>
 </poem>
 <poem id="14-hoc">
 <lg type="stanza" n="1" rhyme="royal">
@@ -16416,6 +16417,7 @@
 <seg type="word" me_root="to" pos="prep">to</seg>
 <seg type="word" me_root="dim" pos="">dym</seg>
 </l>
+</lg>
 </poem>
 <poem id="32-hoc">
 <lg type="stanza" n="1" rhyme="royal">
@@ -23033,6 +23035,7 @@
 <seg type="word" me_root="soule" pos="n">soule</seg>
 <seg type="word" me_root="miserable" pos="adj">miserable</seg>
 </l>
+</lg>
 </poem>
 <poem id="35-hoc">
 <lg type="stanza" n="1" rhyme="royal">
@@ -28862,29 +28865,4 @@
 </l>
 </lg>
 </poem>
-
-<frag>
-<lg type="stanza" n="2" rhyme="royal">
-<l n="9">
-<seg type="word" me_root="humble" pos="adj">humble</seg><seg type="word" me_root="servaunt" pos="n">seruant</seg>
-</l>
-<l n="10">
-<seg type="word" me_root="to" pos="prep">to</seg><seg type="word" me_root="your" pos="pron%pl_gen">your</seg><seg type="word" me_root="gracious" pos="adj">gracious</seg>
-</l>
-<l n="11">
-<seg type="word" me_root="noblesse" pos="n">noblesse</seg>
-</l>
-<l n="12">
-<seg type="word" me_root="hoccleve" pos="n#propn">Hoccleue</seg>
-</l>
-<l n="12">
-
-</l>
-<l n="7">
-<seg type="word" me_root="and" pos="conj">And</seg><seg type="word" me_root="loken" pos="v2%imp">looke</seg><seg type="word" me_root="thou" pos="pron%nom">thow</seg><seg type="word" me_root="in" pos="prep">in</seg><seg type="word" me_root="al" pos="gram_adj">al</seg><seg type="word" me_root="manere" pos="n">manere</seg><seg type="word" me_root="wei" pos="n">weye</seg>
-</l>
-<l n="8">
-<seg type="word" me_root="to" pos="part*">To</seg>
-</l>
-</frag>
 </container>
