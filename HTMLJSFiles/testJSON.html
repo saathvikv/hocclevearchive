@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <title>Request JSON Test</title>
+    </head>
+<body>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+            var c;
+                        $.getJSON('../JSON/newPoemHub.json', function (data) {
+                            //alert("success");
+                             c = data;
+
+
+                            console.log(c.container.poem[0].lg[0].l[0].seg[0]);
+
+                            $.each(c.container.poem[0].lg[0].l[0], function (i, v) {
+
+                                console.log("v: " + JSON.stringify(v));
+                                $.each(v, function (i, value) {
+                                    if (value.__text.search(new RegExp(/that/i)) != -1) {
+                                        alert("hi");
+                                        alert(value._type);
+                                        return;
+                                    }
+                                });
+                            });
+
+                        });
+        </script>
+
+</body>
+</head>
+</html>
+
+
+
