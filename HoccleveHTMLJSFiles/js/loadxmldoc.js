@@ -8,7 +8,7 @@ else // code for IE5 and IE6
   {
   xhttp=new ActiveXObject("Microsoft.XMLHTTP");
   }
-xhttp.open("GET","XML/NewXML/"+filename,false);
+xhttp.open("GET","../XML/OldXML/"+filename,false);
 xhttp.send();
 return xhttp.responseXML;
 }
