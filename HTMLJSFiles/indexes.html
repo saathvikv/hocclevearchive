@@ -1,120 +1,134 @@
 ﻿<!doctype html>
 <html lang="en">
- <head>
-  <title>Document</title>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-  <script src="loadxmldoc.js" type="text/javascript"></script> <!-- Linking external javascript file for loading the contents from the XML file -->
-  <style>
-  input{
-  width: 400px;
-  }
-  </style>
-  <script>
-	var a="";
-	$(document).ready(function(){
-		$(".poems").click(function (){
-
-		
-		a=$(this).attr('id');  // For fetching the 'id' value of the button clicked using class name
-		var b=$(this).val(); // For gettting the value of the button clicked
-		document.write("<a href='index.html'>Home</a> &nbsp<a href='indexes.html'>EETS Facsimile Edition Title Index</a>");
-		document.write("<center><h1><b>"+b+"</b></h1></center>"); // Displays name of the poem
-		xmlDoc=loadXMLDoc(a); // call to loadXMLDoc() for fetching the contents of XML file
-		//Following code goes through the DOM tree recurssively and diplays the poem 
-		b=xmlDoc.getElementsByTagName("poem")[0].childNodes; //fetches all the "poem" tags
-		m=(b.length-1)/2;
-		s=0;
-		lc=1;
-		
-		for (k=0;k<m;k++)
-		{
-			document.write("<table style='width:1000px;'>");
-			a=xmlDoc.getElementsByTagName("lg")[k].childNodes; // fetches all the "lg" tags
-			n=(a.length-1)/2;
-			for (j=0;j<n;j++)
-			{
-				document.write("<tr>");
-				if(lc==1)
-				{
-					document.write("<td style='width:70px;'>"+1+"</td>");
-				}
-				else if(lc%5==0)
-				{
-					document.write("<td style='width:70px;'>"+lc+"</td>");
-				}
-				else
-				{
-					document.write("<td></td>");
-				}
-				lc++;
-				x=xmlDoc.getElementsByTagName("l")[s].childNodes; // fetches "l" tags
-				y=xmlDoc.getElementsByTagName("l")[s].firstChild;
-				s++;
-				document.write("<td>");
-				for(i=0;i<x.length;i++)
-				{
-					if (y.nodeType==1)
-					{
-						document.write(y.childNodes[0].nodeValue+" ");
-					}
-					y=y.nextSibling;
-				}
-				document.write("</td></tr>");
-			}
-			//document.write("<br/>");
-			document.write("</table>");
-			document.write("<br/>");
+<head>
+	<title>Document</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="HTMLJSFiles/js/loadxmldoc.js" type="text/javascript"></script> <!-- Linking external javascript file for loading the contents from the XML file -->
+	<style>
+		input{
+			width: 400px;
 		}
-		
-	});
-});
-</script>
- </head>
- <body>
-  <a href="index.html">Home</a>
-  <center>
+	</style>
+	<script>
+		var filename = "";
+		$(document).ready(function(){
+			$(".poems").click(function (){
+
+				filename = $(this).attr('id');  // For fetching the 'id' value of the button clicked using class name
+				var poem_name = $(this).val(); // For getting the value of the button clicked
+				console.log("this is current file_name: " + filename);
+				console.info("this is poem_name: " + poem_name);
+
+
+				// Right here is where the new html is written
+				document.write("<head>");
+				document.write("<link rel='stylesheet' href='css/foundation.css'>");
+				document.write("<link rel='stylesheet' href='css/app.css'>");
+
+				// <add our javascript FILE that overrwrites the mouse right click, and trigger the menu for searching>
+
+				document.write("</head>");
+				document.write("<a href='index.html'>Home</a> &nbsp<a href='indexes.html'>EETS Facsimile Edition Title Index</a>");
+				document.write("<center><h1><b>"+poem_name+"</b></h1></center>"); // Displays name of the poem
+
+				xmlDoc=loadXMLDoc(filename); // call to loadXMLDoc() for fetching the contents of XML file
+				//Following code goes through the DOM tree recurrsivly  and diplays the poem
+
+				var poem_tags = xmlDoc.getElementsByTagName("poem")[0].childNodes; //fetches all the "poem" tags
+				var m=(poem_tags.length-1)/2; /*possibly for formatting the tables?*/
+				var s=0;
+				var line_count=1;
+
+				for (var line_group_index = 0; line_group_index < m; line_group_index++)
+				{
+					document.write("<table style='width:1000px;'>");
+					var lg_tags =xmlDoc.getElementsByTagName("lg")[line_group_index].childNodes; // fetches all the "lg" tags
+					n=(lg_tags.length-1)/2;
+					for (j=0;j<n;j++)
+					{
+						document.write("<tr>");
+						if(line_count==1)
+						{
+							document.write("<td style='width:70px;'>"+1+"</td>");
+						}
+						else if(line_count%5==0)
+						{
+							document.write("<td style='width:70px;'>"+line_count+"</td>");
+						}
+						else
+						{
+							document.write("<td></td>");
+						}
+						line_count++;
+						x=xmlDoc.getElementsByTagName("l")[s].childNodes; // fetches "l" tags
+						y=xmlDoc.getElementsByTagName("l")[s].firstChild;
+						s++;
+						document.write("<td>");
+						for(i=0;i<x.length;i++)
+						{
+							if (y.nodeType==1)
+							{
+								document.write(y.childNodes[0].nodeValue+" ");
+							}
+							y=y.nextSibling;
+						}
+						document.write("</td></tr>");
+					}
+					//document.write("<br/>");
+					document.write("</table>");
+					document.write("<br/>");
+				}
+
+			});
+		});
+	</script>
+</head>
+
+<body>
+<a href="index.html">Home</a>
+<center>
 	<h1>Poems by Title</h1>
 	<table>
-	<tr><td><input type= "button" id="output1.xml" class="poems" value="The Compleynte of the Virgin before the Cross" /></td></tr>
-	<tr><td><input type= "button" id="output2.xml" class="poems" value="Address to Sir John Oldcastle" /></td></tr>
-	<tr><td><input type= "button" id="output3.xml" class="poems" value="La Male Regle" /></td></tr>
-	<tr><td><input type= "button" id="output4.xml" class="poems" value="Balade to King Henry V" /></td></tr>
-	<tr><td><input type= "button" id="output5.xml" class="poems" value="Two Balades to Henry V and the Knights of the Garter [Ballad #1]" /></td></tr>
-	<tr><td><input type= "button" id="output6.xml" class="poems" value="Two Balades to Henry V and the Knights of the Garter [Ballad #2]" /></td></tr>
-	<tr><td><input type= "button" id="output7.xml" class="poems" value="Ad Beatam Virginem" /></td></tr>
-	<tr><td><input type= "button" id="output8.xml" class="poems" value="Balade, after K. Richard II's Bones . . . " /></td></tr>
-	<tr><td><input type= "button" id="output9.xml" class="poems" value="Balade to my gracious Lord of York" /></td></tr>
-	<tr><td><input type= "button" id="output10.xml" class="poems" value="Ad Beatam Vriginem, the 'Mother of God' " /></td></tr>
-	<tr><td><input type= "button" id="output11.xml" class="poems" value="Balade to the Duke of Bedford" /></td></tr>
-	<tr><td><input type= "button" id="output12.xml" class="poems" value="Balade to my Lord the Chancellor" /></td></tr>
-	<tr><td><input type= "button" id="output13.xml" class="poems" value="Balade and Roundel or Chanceon to Mr. Henry Somer, Subtreasurer" /></td></tr>
-	<tr><td><input type= "button" id="output14.xml" class="poems" value="Balade to King Henry V" /></td></tr>
-	<tr><td><input type= "button" id="output15.xml" class="poems" value="Balade to King Henry V, for Money" /></td></tr>
-	<tr><td><input type= "button" id="output16.xml" class="poems" value="Balade to my maister Carpenter" /></td></tr>
-	<tr><td><input type= "button" id="output17.xml" class="poems" value="Balade by the Court of Good Company" /></td></tr>
-	<tr><td><input type= "button" id="output18.xml" class="poems" value="Balade to the Virgin and Christ" /></td></tr>
-	<tr><td><input type= "button" id="output19.xml" class="poems" value="The Letter of Cupid to Lovers, his Subjects" /></td></tr>
-	<tr><td><input type= "button" id="output20.xml" class="poems" value="Regiment of Princes" /></td></tr>
-	<tr><td><input type= "button" id="output21.xml" class="poems" value="Verba compilatoris ad librum [envoi at end of regiment]" /></td></tr>
-	<tr><td><input type= "button" id="output22.xml" class="poems" value="Inoucacio ad patrem" /></td></tr>
-	<tr><td><input type= "button" id="output23.xml" class="poems" value="ad filium honor et gloria" /></td></tr>
-	<tr><td><input type= "button" id="output24.xml" class="poems" value="ad spiritum sanctum" /></td></tr>
-	<tr><td><input type= "button" id="output25.xml" class="poems" value="Ad Beatam Virginem" /></td></tr>
-	<tr><td><input type= "button" id="output26.xml" class="poems" value="item de beata virgine (prologus)" /></td></tr>
-	<tr><td><input type= "button" id="output27.xml" class="poems" value="item de beata virgine (fabula)" /></td></tr>
-	<tr><td><input type= "button" id="output28.xml" class="poems" value="the story of the monk who clad the virgin" /></td></tr>
-	<tr><td><input type= "button" id="output29.xml" class="poems" value="Three Roundels - Hoccleve's appeal to Lady Money" /></td></tr>
-	<tr><td><input type= "button" id="output30.xml" class="poems" value="Three Roundels - Lady Money's scornful answer" /></td></tr>
-	<tr><td><input type= "button" id="output31.xml" class="poems" value="Three Roundels - Hoccleve's Humorous praise of his lady" /></td></tr>
-	<tr><td><input type= "button" id="output32.xml" class="poems" value="epilogue to three roundels" /></td></tr>
-	<tr><td><input type= "button" id="output33.xml" class="poems" value="Lerne to Dye." /></td></tr>
-	<tr><td><input type= "button" id="output34.xml" class="poems" value="Thomas Hoccleve's Complaint" /></td></tr>
-	<tr><td><input type= "button" id="output35.xml" class="poems" value="Dialog with a Friend" /></td></tr>
-	<tr><td><input type= "button" id="output36.xml" class="poems" value="POEM 36" /></td></tr>
-	<tr><td><input type= "button" id="output37.xml" class="poems" value="Lerne to Dye." /></td></tr>
-	<tr><td><input type= "button" id="output38.xml" class="poems" value="POEM 38" /></td></tr>
-	<tr><td><input type= "button" id="output39.xml" class="poems" value="Hoccleve's Dedication to Lady Westmoreland" /></td></tr>
-   </table>
-  </center>
- </body>
+		<tr><td><input type= "button" id="01-hoc.xml" class="poems" value="The Compleynte of the Virgin before the Cross" /></td></tr>
+		<tr><td><input type= "button" id="02-hoc.xml" class="poems" value="Address to Sir John Oldcastle" /></td></tr>
+		<tr><td><input type= "button" id="03-hoc.xml" class="poems" value="La Male Regle" /></td></tr>
+		<tr><td><input type= "button" id="04-hoc.xml" class="poems" value="Balade to King Henry V" /></td></tr>
+		<tr><td><input type= "button" id="05-hoc.xml" class="poems" value="Two Balades to Henry V and the Knights of the Garter [Ballad #1]" /></td></tr>
+		<tr><td><input type= "button" id="06-hoc.xml" class="poems" value="Two Balades to Henry V and the Knights of the Garter [Ballad #2]" /></td></tr>
+		<tr><td><input type= "button" id="07-hoc.xml" class="poems" value="Ad Beatam Virginem" /></td></tr>
+		<tr><td><input type= "button" id="08-hoc.xml" class="poems" value="Balade, after K. Richard II's Bones . . . " /></td></tr>
+		<tr><td><input type= "button" id="09-hoc.xml" class="poems" value="Balade to my gracious Lord of York" /></td></tr>
+		<tr><td><input type= "button" id="10-hoc.xml" class="poems" value="Ad Beatam Vriginem, the 'Mother of God' " /></td></tr>
+		<tr><td><input type= "button" id="11-hoc.xml" class="poems" value="Balade to the Duke of Bedford" /></td></tr>
+		<tr><td><input type= "button" id="12-hoc.xml" class="poems" value="Balade to my Lord the Chancellor" /></td></tr>
+		<tr><td><input type= "button" id="13-hoc.xml" class="poems" value="Balade and Roundel or Chanceon to Mr. Henry Somer, Subtreasurer" /></td></tr>
+		<tr><td><input type= "button" id="14-hoc.xml" class="poems" value="Balade to King Henry V" /></td></tr>
+		<tr><td><input type= "button" id="15-hoc.xml" class="poems" value="Balade to King Henry V, for Money" /></td></tr>
+		<tr><td><input type= "button" id="16-hoc.xml" class="poems" value="Balade to my maister Carpenter" /></td></tr>
+		<tr><td><input type= "button" id="17-hoc.xml" class="poems" value="Balade by the Court of Good Company" /></td></tr>
+		<tr><td><input type= "button" id="18-hoc.xml" class="poems" value="Balade to the Virgin and Christ" /></td></tr>
+		<tr><td><input type= "button" id="19-hoc.xml" class="poems" value="The Letter of Cupid to Lovers, his Subjects" /></td></tr>
+		<tr><td><input type= "button" id="20-hoc.xml" class="poems" value="Regiment of Princes" /></td></tr>
+		<tr><td><input type= "button" id="21-hoc.xml" class="poems" value="Verba compilatoris ad librum [envoi at end of regiment]" /></td></tr>
+		<tr><td><input type= "button" id="22-hoc.xml" class="poems" value="Inoucacio ad patrem" /></td></tr>
+		<tr><td><input type= "button" id="23-hoc.xml" class="poems" value="ad filium honor et gloria" /></td></tr>
+		<tr><td><input type= "button" id="24-hoc.xml" class="poems" value="ad spiritum sanctum" /></td></tr>
+		<tr><td><input type= "button" id="25-hoc.xml" class="poems" value="Ad Beatam Virginem" /></td></tr>
+		<tr><td><input type= "button" id="26-hoc.xml" class="poems" value="item de beata virgine (prologus)" /></td></tr>
+		<tr><td><input type= "button" id="27-hoc.xml" class="poems" value="item de beata virgine (fabula)" /></td></tr>
+		<tr><td><input type= "button" id="28-hoc.xml" class="poems" value="the story of the monk who clad the virgin" /></td></tr>
+		<tr><td><input type= "button" id="29-hoc.xml" class="poems" value="Three Roundels - Hoccleve's appeal to Lady Money" /></td></tr>
+		<tr><td><input type= "button" id="30-hoc.xml" class="poems" value="Three Roundels - Lady Money's scornful answer" /></td></tr>
+		<tr><td><input type= "button" id="31-hoc.xml" class="poems" value="Three Roundels - Hoccleve's Humorous praise of his lady" /></td></tr>
+		<tr><td><input type= "button" id="32-hoc.xml" class="poems" value="epilogue to three roundels" /></td></tr>
+		<tr><td><input type= "button" id="33-hoc.xml" class="poems" value="Lerne to Dye." /></td></tr>
+		<tr><td><input type= "button" id="34-hoc.xml" class="poems" value="Thomas Hoccleve's Complaint" /></td></tr>
+		<tr><td><input type= "button" id="35-hoc.xml" class="poems" value="Dialog with a Friend" /></td></tr>
+		<tr><td><input type= "button" id="36-hoc.xml" class="poems" value="POEM 36" /></td></tr>
+		<tr><td><input type= "button" id="37-hoc.xml" class="poems" value="Lerne to Dye." /></td></tr>
+		<tr><td><input type= "button" id="38-hoc.xml" class="poems" value="POEM 38" /></td></tr>
+		<tr><td><input type= "button" id="39-hoc.xml" class="poems" value="Hoccleve's Dedication to Lady Westmoreland" /></td></tr>
+	</table>
+</center>
+</body>
 </html>

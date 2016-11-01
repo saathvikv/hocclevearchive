@@ -1,520 +1,255 @@
-<<<<<<< HEAD
 <poem id="30-hoc">
-<lg type="stanza" n=1 rhyme="royal">
-<l n=" 1 ">
-<seg type="word" me_root="hoccleve" pos="n#propn">Hoccleue</seg>
-<seg type="word" me_root="ich" pos="pron%nom">I</seg>
-<seg type="word" me_root="willen" pos="v%pr_1">wole</seg>
-<seg type="word" me_root="hit" pos="pron">it</seg>
-<seg type="word" me_root="to" pos="prep">to</seg>
-<seg type="word" me_root="the" pos="pron2%obj">thee</seg>
-<seg type="word" me_root="knouen" pos="v%ppl">knowen</seg>
-<seg type="word" me_root="ben" pos="v%inf">be</seg>
-</l>
-<l n=" 2 ">
-<seg type="word" me_root="ich" pos="pron%nom">I</seg>
-<seg type="word" me_root="ladie" pos="n">lady</seg>
-<seg type="word" me_root="moneie" pos="n">Moneie</seg>
-<seg type="word" me_root="of" pos="prep">of</seg>
-<seg type="word" me_root="the" pos="def_art">the</seg>
-<seg type="word" me_root="world" pos="n">world</seg>
-<seg type="word" me_root="goddesse" pos="n">goddesse</seg>
-</l>
-<l n=" 3 ">
-<seg type="word" me_root="that" pos="pron_rel">That</seg>
-<seg type="word" me_root="haven" pos="v%pr_1">have</seg>
-<seg type="word" me_root="al" pos="gram_adj">al</seg>
-<seg type="word" me_root="thing" pos="n">thyng</seg>
-<seg type="word" me_root="under" pos="prep">vndir</seg>
-<seg type="word" me_root="min" pos="pron%gen">my</seg>
-<seg type="word" me_root="buxomnesse" pos="n">buxumnesse</seg>
-</l>
-<l n=" 4 ">
-<seg type="word" me_root="not" pos="adv">Nat</seg>
-<seg type="word" me_root="setten" pos="v%pr_1">sette</seg>
-<seg type="word" me_root="bi" pos="prep">by</seg>
-<seg type="word" me_root="thin" pos="pron%gen">thy</seg>
-<seg type="word" me_root="pleinte" pos="n">pleynte</seg>
-<seg type="word" me_root="rishe" pos="n%pl">risshes</seg>
-<seg type="word" me_root="thre" pos="num#adj">three</seg>
-</l>
-<l n=" 5 ">
-<seg type="word" me_root="min" pos="pron%gen">Myn</seg>
-<seg type="word" me_root="heigh" pos="adj">hy</seg>
-<seg type="word" me_root="might" pos="n">might</seg>
-<seg type="word" me_root="haven" pos="v%pt_2">haddest</seg>
-<seg type="word" me_root="thou" pos="pron%nom">thou</seg>
-<seg type="word" me_root="in" pos="prep">in</seg>
-<seg type="word" me_root="no" pos="gram_adj">no</seg>
-<seg type="word" me_root="chierte" pos="n">cheertee</seg>
-</l>
-<l n=" 6 ">
-<seg type="word" me_root="whil" pos="conj">Whyle</seg>
-<seg type="word" me_root="ich" pos="pron%nom">I</seg>
-<seg type="word" me_root="ben" pos="v%pt_1">was</seg>
-<seg type="word" me_root="in" pos="prep">in</seg>
-<seg type="word" me_root="thin" pos="pron%gen">thy</seg>
-<seg type="word" me_root="sliper" pos="adj">slipir</seg>
-<seg type="word" me_root="sikernesse" pos="n">sikirnesse</seg>
-</l>
-<l n=" 7 ">
-<seg type="word" me_root="hoccleve" pos="n#propn">Hoccleue</seg>
-<seg type="word" me_root="ich" pos="pron%nom">I</seg>
-<seg type="word" me_root="willen" pos="v%pr_1">wole</seg>
-<seg type="word" me_root="hit" pos="pron">it</seg>
-<seg type="word" me_root="to" pos="prep">to</seg>
-<seg type="word" me_root="the" pos="pron2%obj">thee</seg>
-<seg type="word" me_root="knouen" pos="v%ppl">knowen</seg>
-<seg type="word" me_root="ben" pos="v%inf">be</seg>
-</l>
-</lg>
-<lg type="stanza" n=2 rhyme="royal">
-<l n=" 8 ">
-<seg type="word" me_root="ich" pos="pron%nom">I</seg>
-<seg type="word" me_root="ladie" pos="n">lady</seg>
-<seg type="word" me_root="moneie" pos="n">Moneie</seg>
-<seg type="word" me_root="of" pos="prep">of</seg>
-<seg type="word" me_root="the" pos="def_art">the</seg>
-<seg type="word" me_root="world" pos="n">world</seg>
-<seg type="word" me_root="goddesse" pos="n">goddesse</seg>
-</l>
-<l n=" 9 ">
-<seg type="word" me_root="that" pos="pron_rel">That</seg>
-<seg type="word" me_root="haven" pos="v%pr_1">have</seg>
-<seg type="word" me_root="al" pos="gram_adj">al</seg>
-<seg type="word" me_root="thing" pos="n">thyng</seg>
-<seg type="word" me_root="under" pos="prep">vndir</seg>
-<seg type="word" me_root="min" pos="pron%gen">my</seg>
-<seg type="word" me_root="buxomnesse" pos="n">buxumnesse</seg>
-</l>
-<l n=" 10 ">
-<seg type="word" me_root="not" pos="adv">Nat</seg>
-<seg type="word" me_root="setten" pos="v%pr_1">sette</seg>
-<seg type="word" me_root="bi" pos="prep">by</seg>
-<seg type="word" me_root="thin" pos="pron%gen">thy</seg>
-<seg type="word" me_root="pleinte" pos="n">pleynte</seg>
-<seg type="word" me_root="rishe" pos="n%pl">risshes</seg>
-<seg type="word" me_root="thre" pos="num#adj">three</seg>
-</l>
-<l n=" 11 ">
-<seg type="word" me_root="at" pos="prep">At</seg>
-<seg type="word" me_root="instaunce" pos="n">instance</seg>
-<seg type="word" me_root="of" pos="prep">of</seg>
-<seg type="word" me_root="thin" pos="pron%gen">thyn</seg>
-<seg type="word" me_root="excessif" pos="adj">excessif</seg>
-<seg type="word" me_root="largesse" pos="n">largesse</seg>
-</l>
-<l n=" 12 ">
-<seg type="word" me_root="bicomen" pos="v%pt_1">Becam</seg>
-<seg type="word" me_root="ich" pos="pron%nom">I</seg>
-<seg type="word" me_root="of" pos="prep">of</seg>
-<seg type="word" me_root="min" pos="pron%gen">my</seg>
-<seg type="word" me_root="bodi" pos="n">body</seg>
-<seg type="word" me_root="deslave" pos="adj">delavee</seg>
-</l>
-<l n=" 13 ">
-<seg type="word" me_root="hoccleve" pos="n#propn">Hoccleue</seg>
-<seg type="word" me_root="ich" pos="pron%nom">I</seg>
-<seg type="word" me_root="willen" pos="v%pr_1">wole</seg>
-<seg type="word" me_root="hit" pos="pron">it</seg>
-<seg type="word" me_root="to" pos="prep">to</seg>
-<seg type="word" me_root="the" pos="pron2%obj">thee</seg>
-<seg type="word" me_root="knouen" pos="v%ppl">knowen</seg>
-<seg type="word" me_root="ben" pos="v%inf">be</seg>
-</l>
-<l n=" 14 ">
-<seg type="word" me_root="ich" pos="pron%nom">I</seg>
-<seg type="word" me_root="ladie" pos="n">lady</seg>
-<seg type="word" me_root="moneie" pos="n">Moneie</seg>
-<seg type="word" me_root="of" pos="prep">of</seg>
-<seg type="word" me_root="the" pos="def_art">the</seg>
-<seg type="word" me_root="world" pos="n">world</seg>
-<seg type="word" me_root="goddesse" pos="n">goddesse</seg>
-</l>
-</lg>
-<lg type="stanza" n=3 rhyme="royal">
-<l n=" 15 ">
-<seg type="word" me_root="that" pos="pron_rel">That</seg>
-<seg type="word" me_root="haven" pos="v%pr_1">have</seg>
-<seg type="word" me_root="al" pos="gram_adj">al</seg>
-<seg type="word" me_root="thing" pos="n">thyng</seg>
-<seg type="word" me_root="under" pos="prep">vndir</seg>
-<seg type="word" me_root="min" pos="pron%gen">my</seg>
-<seg type="word" me_root="buxomnesse" pos="n">buxumnesse</seg>
-</l>
-<l n=" 16 ">
-<seg type="word" me_root="not" pos="adv">Nat</seg>
-<seg type="word" me_root="setten" pos="v%pr_1">sette</seg>
-<seg type="word" me_root="bi" pos="prep">by</seg>
-<seg type="word" me_root="thin" pos="pron%gen">thy</seg>
-<seg type="word" me_root="pleinte" pos="n">pleynte</seg>
-<seg type="word" me_root="rishe" pos="n%pl">risshes</seg>
-<seg type="word" me_root="thre" pos="num#adj">three</seg>
-</l>
-<l n=" 17 ">
-<seg type="word" me_root="and" pos="conj">And</seg>
-<seg type="word" me_root="sin" pos="conj">syn</seg>
-<seg type="word" me_root="that" pos="part">that</seg>
-<seg type="word" me_root="lord" pos="n%pl">lordes</seg>
-<seg type="word" me_root="gret" pos="adj%pl">grete</seg>
-<seg type="word" me_root="obeien" pos="v%pr_pl">obeien</seg>
-<seg type="word" me_root="me" pos="pron2%obj">me</seg>
-</l>
-<l n=" 18 ">
-<seg type="word" me_root="shulen" pos="v1%pt_1">Sholde</seg>
-<seg type="word" me_root="ich" pos="pron%nom">I</seg>
-<seg type="word" me_root="me" pos="pron2%obj">me</seg>
-<seg type="word" me_root="dreden" pos="v%inf">dreede</seg>
-<seg type="word" me_root="of" pos="prep">of</seg>
-<seg type="word" me_root="thin" pos="pron%gen">thy</seg>
-<seg type="word" me_root="povre" pos="adj">poore</seg>
-<seg type="word" me_root="simplesse" pos="n">symplesse</seg>
-</l>
-<l n=" 19 ">
-<seg type="word" me_root="min" pos="pron%gen">My</seg>
-<seg type="word" me_root="golden" pos="adj">golden</seg>
-<seg type="word" me_root="hed" pos="n1">heed</seg>
-<seg type="word" me_root="aken" pos="v%pr_3">akith</seg>
-<seg type="word" me_root="for" pos="prep">for</seg>
-<seg type="word" me_root="thin" pos="pron%gen">thy</seg>
-<seg type="word" me_root="leuednesse" pos="n">lewdnesse</seg>
-</l>
-<l n=" 20 ">
-<seg type="word" me_root="gon" pos="v%imp">Go,</seg>
-<seg type="word" me_root="povre" pos="adj">poore</seg>
-<seg type="word" me_root="wrecche" pos="n">wrecche</seg>
-<seg type="word" me_root="who" pos="pron%nom">who</seg>
-<seg type="word" me_root="setten" pos="v%pr_3">settith</seg>
-<seg type="word" me_root="ought" pos="pron">aght</seg>
-<seg type="word" me_root="bi" pos="prep">by</seg>
-<seg type="word" me_root="the" pos="pron2%obj">thee</seg>
-</l>
-<l n=" 21 ">
-<seg type="word" me_root="hoccleve" pos="n#propn">Hoccleue</seg>
-<seg type="word" me_root="ich" pos="pron%nom">I</seg>
-<seg type="word" me_root="willen" pos="v%pr_1">wole</seg>
-<seg type="word" me_root="hit" pos="pron">it</seg>
-<seg type="word" me_root="to" pos="prep">to</seg>
-<seg type="word" me_root="the" pos="pron2%obj">thee</seg>
-<seg type="word" me_root="knouen" pos="v%ppl">knowen</seg>
-<seg type="word" me_root="ben" pos="v%inf">be</seg>
-</l>
-</lg>
-<lg type="stanza" n=4 rhyme="royal">
-<l n=" 22 ">
-<seg type="word" me_root="ich" pos="pron%nom">I</seg>
-<seg type="word" me_root="ladie" pos="n">lady</seg>
-<seg type="word" me_root="moneie" pos="n">Moneie</seg>
-<seg type="word" me_root="of" pos="prep">of</seg>
-<seg type="word" me_root="the" pos="def_art">the</seg>
-<seg type="word" me_root="world" pos="n">world</seg>
-<seg type="word" me_root="goddesse" pos="n">goddesse</seg>
-</l>
-<l n=" 23 ">
-<seg type="word" me_root="that" pos="pron_rel">That</seg>
-<seg type="word" me_root="haven" pos="v%pr_1">have</seg>
-<seg type="word" me_root="al" pos="gram_adj">al</seg>
-<seg type="word" me_root="thing" pos="n">thyng</seg>
-<seg type="word" me_root="under" pos="prep">vndir</seg>
-<seg type="word" me_root="min" pos="pron%gen">my</seg>
-<seg type="word" me_root="buxomnesse" pos="n">buxumnesse</seg>
-</l>
-<l n=" 24 ">
-<seg type="word" me_root="not" pos="adv">Nat</seg>
-<seg type="word" me_root="setten" pos="v%pr_1">sette</seg>
-<seg type="word" me_root="bi" pos="prep">by</seg>
-<seg type="word" me_root="thin" pos="pron%gen">thy</seg>
-<seg type="word" me_root="pleinte" pos="n">pleynte</seg>
-<seg type="word" me_root="rishe" pos="n%pl">risshes</seg>
-<seg type="word" me_root="thre" pos="num#adj">three</seg>
-</l>
-<l n=" 24 ">
-<seg type="word" me_root="knouen" pos="v%ppl">knowen</seg>
-<seg type="word" me_root="ben" pos="v%inf">be</seg>
-</l>
-</lg>
-<lg type="stanza" n=5 rhyme="royal">
-<l n=" 22 ">
-<seg type="word" me_root="ich" pos="pron%nom">I</seg>
-<seg type="word" me_root="ladie" pos="n">lady</seg>
-<seg type="word" me_root="moneie" pos="n">Moneie</seg>
-<seg type="word" me_root="of" pos="prep">of</seg>
-<seg type="word" me_root="the" pos="def_art">the</seg>
-<seg type="word" me_root="world" pos="n">world</seg>
-<seg type="word" me_root="goddesse" pos="n">goddesse</seg>
-</l>
-<l n=" 23 ">
-<<<<<<< HEAD
-<seg type="word" me_root="that" pos="pron_rel">That</seg>
-<seg type="word" me_root="haven" pos="v%pr_1">have</seg>
-<seg type="word" me_root="al" pos="gram_adj">al</seg>
-<seg type="word" me_root="thing" pos="n">thyng</seg>
-<seg type="word" me_root="under" pos="prep">vndir</seg>
-<seg type="word" me_root="min" pos="pron%gen">my</seg>
-<seg type="word" me_root="buxomnesse" pos="n">buxumnesse</seg>
-</l>
-=======
-<seg type="word" me_root="that"pos="pron_rel">That</seg>
-<seg type="word" me_root="haven"pos="v%pr_1">have</seg>
-<seg type="word" me_root="al"pos="gram_adj">al</seg>
-<seg type="word" me_root="thing"pos="n">thyng</seg>
-<seg type="word" me_root="under"pos="prep">vndir</seg>
-<seg type="word" me_root="min"pos="pron%gen">my</seg>
-<seg type="word" me_root="buxomnesse"pos="n">buxumnesse</seg>
-<\l>
-=======
-<poem id="30-hoc">
-<lg type="stanza" n=1 rhyme="royal">
-<l n=" 1 ">
-<seg type="word" me_root="hoccleve"pos="n#propn">Hoccleue</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="willen"pos="v%pr_1">wole</seg>
-<seg type="word" me_root="hit"pos="pron">it</seg>
-<seg type="word" me_root="to"pos="prep">to</seg>
-<seg type="word" me_root="the"pos="pron2%obj">thee</seg>
-<seg type="word" me_root="knouen"pos="v%ppl">knowen</seg>
-<seg type="word" me_root="ben"pos="v%inf">be</seg>
-<\l>
-<l n=" 2 ">
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="ladie"pos="n">lady</seg>
-<seg type="word" me_root="moneie"pos="n">Moneie</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="the"pos="def_art">the</seg>
-<seg type="word" me_root="world"pos="n">world</seg>
-<seg type="word" me_root="goddesse"pos="n">goddesse</seg>
-<\l>
-<l n=" 3 ">
-<seg type="word" me_root="that"pos="pron_rel">That</seg>
-<seg type="word" me_root="haven"pos="v%pr_1">have</seg>
-<seg type="word" me_root="al"pos="gram_adj">al</seg>
-<seg type="word" me_root="thing"pos="n">thyng</seg>
-<seg type="word" me_root="under"pos="prep">vndir</seg>
-<seg type="word" me_root="min"pos="pron%gen">my</seg>
-<seg type="word" me_root="buxomnesse"pos="n">buxumnesse</seg>
-<\l>
-<l n=" 4 ">
-<seg type="word" me_root="not"pos="adv">Nat</seg>
-<seg type="word" me_root="setten"pos="v%pr_1">sette</seg>
-<seg type="word" me_root="bi"pos="prep">by</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thy</seg>
-<seg type="word" me_root="pleinte"pos="n">pleynte</seg>
-<seg type="word" me_root="rishe"pos="n%pl">risshes</seg>
-<seg type="word" me_root="thre"pos="num#adj">three</seg>
-<\l>
-<l n=" 5 ">
-<seg type="word" me_root="min"pos="pron%gen">Myn</seg>
-<seg type="word" me_root="heigh"pos="adj">hy</seg>
-<seg type="word" me_root="might"pos="n">might</seg>
-<seg type="word" me_root="haven"pos="v%pt_2">haddest</seg>
-<seg type="word" me_root="thou"pos="pron%nom">thou</seg>
-<seg type="word" me_root="in"pos="prep">in</seg>
-<seg type="word" me_root="no"pos="gram_adj">no</seg>
-<seg type="word" me_root="chierte"pos="n">cheertee</seg>
-<\l>
-<l n=" 6 ">
-<seg type="word" me_root="whil"pos="conj">Whyle</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="ben"pos="v%pt_1">was</seg>
-<seg type="word" me_root="in"pos="prep">in</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thy</seg>
-<seg type="word" me_root="sliper"pos="adj">slipir</seg>
-<seg type="word" me_root="sikernesse"pos="n">sikirnesse</seg>
-<\l>
-<l n=" 7 ">
-<seg type="word" me_root="hoccleve"pos="n#propn">Hoccleue</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="willen"pos="v%pr_1">wole</seg>
-<seg type="word" me_root="hit"pos="pron">it</seg>
-<seg type="word" me_root="to"pos="prep">to</seg>
-<seg type="word" me_root="the"pos="pron2%obj">thee</seg>
-<seg type="word" me_root="knouen"pos="v%ppl">knowen</seg>
-<seg type="word" me_root="ben"pos="v%inf">be</seg>
-<\l>
-<\lg>
-<lg type="stanza" n=2 rhyme="royal">
-<l n=" 8 ">
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="ladie"pos="n">lady</seg>
-<seg type="word" me_root="moneie"pos="n">Moneie</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="the"pos="def_art">the</seg>
-<seg type="word" me_root="world"pos="n">world</seg>
-<seg type="word" me_root="goddesse"pos="n">goddesse</seg>
-<\l>
-<l n=" 9 ">
-<seg type="word" me_root="that"pos="pron_rel">That</seg>
-<seg type="word" me_root="haven"pos="v%pr_1">have</seg>
-<seg type="word" me_root="al"pos="gram_adj">al</seg>
-<seg type="word" me_root="thing"pos="n">thyng</seg>
-<seg type="word" me_root="under"pos="prep">vndir</seg>
-<seg type="word" me_root="min"pos="pron%gen">my</seg>
-<seg type="word" me_root="buxomnesse"pos="n">buxumnesse</seg>
-<\l>
-<l n=" 10 ">
-<seg type="word" me_root="not"pos="adv">Nat</seg>
-<seg type="word" me_root="setten"pos="v%pr_1">sette</seg>
-<seg type="word" me_root="bi"pos="prep">by</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thy</seg>
-<seg type="word" me_root="pleinte"pos="n">pleynte</seg>
-<seg type="word" me_root="rishe"pos="n%pl">risshes</seg>
-<seg type="word" me_root="thre"pos="num#adj">three</seg>
-<\l>
-<l n=" 11 ">
-<seg type="word" me_root="at"pos="prep">At</seg>
-<seg type="word" me_root="instaunce"pos="n">instance</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thyn</seg>
-<seg type="word" me_root="excessif"pos="adj">excessif</seg>
-<seg type="word" me_root="largesse"pos="n">largesse</seg>
-<\l>
-<l n=" 12 ">
-<seg type="word" me_root="bicomen"pos="v%pt_1">Becam</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="min"pos="pron%gen">my</seg>
-<seg type="word" me_root="bodi"pos="n">body</seg>
-<seg type="word" me_root="deslave"pos="adj">delavee</seg>
-<\l>
-<l n=" 13 ">
-<seg type="word" me_root="hoccleve"pos="n#propn">Hoccleue</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="willen"pos="v%pr_1">wole</seg>
-<seg type="word" me_root="hit"pos="pron">it</seg>
-<seg type="word" me_root="to"pos="prep">to</seg>
-<seg type="word" me_root="the"pos="pron2%obj">thee</seg>
-<seg type="word" me_root="knouen"pos="v%ppl">knowen</seg>
-<seg type="word" me_root="ben"pos="v%inf">be</seg>
-<\l>
-<l n=" 14 ">
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="ladie"pos="n">lady</seg>
-<seg type="word" me_root="moneie"pos="n">Moneie</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="the"pos="def_art">the</seg>
-<seg type="word" me_root="world"pos="n">world</seg>
-<seg type="word" me_root="goddesse"pos="n">goddesse</seg>
-<\l>
-<\lg>
-<lg type="stanza" n=3 rhyme="royal">
-<l n=" 15 ">
-<seg type="word" me_root="that"pos="pron_rel">That</seg>
-<seg type="word" me_root="haven"pos="v%pr_1">have</seg>
-<seg type="word" me_root="al"pos="gram_adj">al</seg>
-<seg type="word" me_root="thing"pos="n">thyng</seg>
-<seg type="word" me_root="under"pos="prep">vndir</seg>
-<seg type="word" me_root="min"pos="pron%gen">my</seg>
-<seg type="word" me_root="buxomnesse"pos="n">buxumnesse</seg>
-<\l>
-<l n=" 16 ">
-<seg type="word" me_root="not"pos="adv">Nat</seg>
-<seg type="word" me_root="setten"pos="v%pr_1">sette</seg>
-<seg type="word" me_root="bi"pos="prep">by</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thy</seg>
-<seg type="word" me_root="pleinte"pos="n">pleynte</seg>
-<seg type="word" me_root="rishe"pos="n%pl">risshes</seg>
-<seg type="word" me_root="thre"pos="num#adj">three</seg>
-<\l>
-<l n=" 17 ">
-<seg type="word" me_root="and"pos="conj">And</seg>
-<seg type="word" me_root="sin"pos="conj">syn</seg>
-<seg type="word" me_root="that"pos="part">that</seg>
-<seg type="word" me_root="lord"pos="n%pl">lordes</seg>
-<seg type="word" me_root="gret"pos="adj%pl">grete</seg>
-<seg type="word" me_root="obeien"pos="v%pr_pl">obeien</seg>
-<seg type="word" me_root="me"pos="pron2%obj">me</seg>
-<\l>
-<l n=" 18 ">
-<seg type="word" me_root="shulen"pos="v1%pt_1">Sholde</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="me"pos="pron2%obj">me</seg>
-<seg type="word" me_root="dreden"pos="v%inf">dreede</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thy</seg>
-<seg type="word" me_root="povre"pos="adj">poore</seg>
-<seg type="word" me_root="simplesse"pos="n">symplesse</seg>
-<\l>
-<l n=" 19 ">
-<seg type="word" me_root="min"pos="pron%gen">My</seg>
-<seg type="word" me_root="golden"pos="adj">golden</seg>
-<seg type="word" me_root="hed"pos="n1">heed</seg>
-<seg type="word" me_root="aken"pos="v%pr_3">akith</seg>
-<seg type="word" me_root="for"pos="prep">for</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thy</seg>
-<seg type="word" me_root="leuednesse"pos="n">lewdnesse</seg>
-<\l>
-<l n=" 20 ">
-<seg type="word" me_root="gon"pos="v%imp">Go,</seg>
-<seg type="word" me_root="povre"pos="adj">poore</seg>
-<seg type="word" me_root="wrecche"pos="n">wrecche</seg>
-<seg type="word" me_root="who"pos="pron%nom">who</seg>
-<seg type="word" me_root="setten"pos="v%pr_3">settith</seg>
-<seg type="word" me_root="ought"pos="pron">aght</seg>
-<seg type="word" me_root="bi"pos="prep">by</seg>
-<seg type="word" me_root="the"pos="pron2%obj">thee</seg>
-<\l>
-<l n=" 21 ">
-<seg type="word" me_root="hoccleve"pos="n#propn">Hoccleue</seg>
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="willen"pos="v%pr_1">wole</seg>
-<seg type="word" me_root="hit"pos="pron">it</seg>
-<seg type="word" me_root="to"pos="prep">to</seg>
-<seg type="word" me_root="the"pos="pron2%obj">thee</seg>
-<seg type="word" me_root="knouen"pos="v%ppl">knowen</seg>
-<seg type="word" me_root="ben"pos="v%inf">be</seg>
-<\l>
-<\lg>
-<lg type="stanza" n=4 rhyme="royal">
-<l n=" 22 ">
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="ladie"pos="n">lady</seg>
-<seg type="word" me_root="moneie"pos="n">Moneie</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="the"pos="def_art">the</seg>
-<seg type="word" me_root="world"pos="n">world</seg>
-<seg type="word" me_root="goddesse"pos="n">goddesse</seg>
-<\l>
-<l n=" 23 ">
-<seg type="word" me_root="that"pos="pron_rel">That</seg>
-<seg type="word" me_root="haven"pos="v%pr_1">have</seg>
-<seg type="word" me_root="al"pos="gram_adj">al</seg>
-<seg type="word" me_root="thing"pos="n">thyng</seg>
-<seg type="word" me_root="under"pos="prep">vndir</seg>
-<seg type="word" me_root="min"pos="pron%gen">my</seg>
-<seg type="word" me_root="buxomnesse"pos="n">buxumnesse</seg>
-<\l>
-<l n=" 24 ">
-<seg type="word" me_root="not"pos="adv">Nat</seg>
-<seg type="word" me_root="setten"pos="v%pr_1">sette</seg>
-<seg type="word" me_root="bi"pos="prep">by</seg>
-<seg type="word" me_root="thin"pos="pron%gen">thy</seg>
-<seg type="word" me_root="pleinte"pos="n">pleynte</seg>
-<seg type="word" me_root="rishe"pos="n%pl">risshes</seg>
-<seg type="word" me_root="thre"pos="num#adj">three</seg>
-<\l>
-<l n=" 24 ">
-<seg type="word" me_root="knouen"pos="v%ppl">knowen</seg>
-<seg type="word" me_root="ben"pos="v%inf">be</seg>
-<\l>
-<\lg>
-<lg type="stanza" n=5 rhyme="royal">
-<l n=" 22 ">
-<seg type="word" me_root="ich"pos="pron%nom">I</seg>
-<seg type="word" me_root="ladie"pos="n">lady</seg>
-<seg type="word" me_root="moneie"pos="n">Moneie</seg>
-<seg type="word" me_root="of"pos="prep">of</seg>
-<seg type="word" me_root="the"pos="def_art">the</seg>
-<seg type="word" me_root="world"pos="n">world</seg>
-<seg type="word" me_root="goddesse"pos="n">goddesse</seg>
-<\l>
-<l n=" 23 ">
-<seg type="word" me_root="that"pos="pron_rel">That</seg>
-<seg type="word" me_root="haven"pos="v%pr_1">have</seg>
-<seg type="word" me_root="al"pos="gram_adj">al</seg>
-<seg type="word" me_root="thing"pos="n">thyng</seg>
-<seg type="word" me_root="under"pos="prep">vndir</seg>
-<seg type="word" me_root="min"pos="pron%gen">my</seg>
-<seg type="word" me_root="buxomnesse"pos="n">buxumnesse</seg>
-<\l>
->>>>>>> dev
->>>>>>> origin/master
+    <lg type="stanza" n="1" rhyme="royal">
+        <l n=" 1 ">
+            <seg type="word" me_root="hoccleve" pos="n#propn">Hoccleue</seg>
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="willen" pos="v%pr_1">wole</seg>
+            <seg type="word" me_root="hit" pos="pron">it</seg>
+            <seg type="word" me_root="to" pos="prep">to</seg>
+            <seg type="word" me_root="the" pos="pron2%obj">thee</seg>
+            <seg type="word" me_root="knouen" pos="v%ppl">knowen</seg>
+            <seg type="word" me_root="ben" pos="v%inf">be</seg>
+        </l>
+        <l n=" 2 ">
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="ladie" pos="n">lady</seg>
+            <seg type="word" me_root="moneie" pos="n">Moneie</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="the" pos="def_art">the</seg>
+            <seg type="word" me_root="world" pos="n">world</seg>
+            <seg type="word" me_root="goddesse" pos="n">goddesse</seg>
+        </l>
+        <l n=" 3 ">
+            <seg type="word" me_root="that" pos="pron_rel">That</seg>
+            <seg type="word" me_root="haven" pos="v%pr_1">have</seg>
+            <seg type="word" me_root="al" pos="gram_adj">al</seg>
+            <seg type="word" me_root="thing" pos="n">thyng</seg>
+            <seg type="word" me_root="under" pos="prep">vndir</seg>
+            <seg type="word" me_root="min" pos="pron%gen">my</seg>
+            <seg type="word" me_root="buxomnesse" pos="n">buxumnesse</seg>
+        </l>
+        <l n=" 4 ">
+            <seg type="word" me_root="not" pos="adv">Nat</seg>
+            <seg type="word" me_root="setten" pos="v%pr_1">sette</seg>
+            <seg type="word" me_root="bi" pos="prep">by</seg>
+            <seg type="word" me_root="thin" pos="pron%gen">thy</seg>
+            <seg type="word" me_root="pleinte" pos="n">pleynte</seg>
+            <seg type="word" me_root="rishe" pos="n%pl">risshes</seg>
+            <seg type="word" me_root="thre" pos="num#adj">three</seg>
+        </l>
+        <l n=" 5 ">
+            <seg type="word" me_root="min" pos="pron%gen">Myn</seg>
+            <seg type="word" me_root="heigh" pos="adj">hy</seg>
+            <seg type="word" me_root="might" pos="n">might</seg>
+            <seg type="word" me_root="haven" pos="v%pt_2">haddest</seg>
+            <seg type="word" me_root="thou" pos="pron%nom">thou</seg>
+            <seg type="word" me_root="in" pos="prep">in</seg>
+            <seg type="word" me_root="no" pos="gram_adj">no</seg>
+            <seg type="word" me_root="chierte" pos="n">cheertee</seg>
+        </l>
+        <l n=" 6 ">
+            <seg type="word" me_root="whil" pos="conj">Whyle</seg>
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="ben" pos="v%pt_1">was</seg>
+            <seg type="word" me_root="in" pos="prep">in</seg>
+            <seg type="word" me_root="thin" pos="pron%gen">thy</seg>
+            <seg type="word" me_root="sliper" pos="adj">slipir</seg>
+            <seg type="word" me_root="sikernesse" pos="n">sikirnesse</seg>
+        </l>
+        <l n=" 7 ">
+            <seg type="word" me_root="hoccleve" pos="n#propn">Hoccleue</seg>
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="willen" pos="v%pr_1">wole</seg>
+            <seg type="word" me_root="hit" pos="pron">it</seg>
+            <seg type="word" me_root="to" pos="prep">to</seg>
+            <seg type="word" me_root="the" pos="pron2%obj">thee</seg>
+            <seg type="word" me_root="knouen" pos="v%ppl">knowen</seg>
+            <seg type="word" me_root="ben" pos="v%inf">be</seg>
+        </l>
+    </lg>
+    <lg type="stanza" n="2" rhyme="royal">
+        <l n=" 8 ">
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="ladie" pos="n">lady</seg>
+            <seg type="word" me_root="moneie" pos="n">Moneie</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="the" pos="def_art">the</seg>
+            <seg type="word" me_root="world" pos="n">world</seg>
+            <seg type="word" me_root="goddesse" pos="n">goddesse</seg>
+        </l>
+        <l n=" 9 ">
+            <seg type="word" me_root="that" pos="pron_rel">That</seg>
+            <seg type="word" me_root="haven" pos="v%pr_1">have</seg>
+            <seg type="word" me_root="al" pos="gram_adj">al</seg>
+            <seg type="word" me_root="thing" pos="n">thyng</seg>
+            <seg type="word" me_root="under" pos="prep">vndir</seg>
+            <seg type="word" me_root="min" pos="pron%gen">my</seg>
+            <seg type="word" me_root="buxomnesse" pos="n">buxumnesse</seg>
+        </l>
+        <l n=" 10 ">
+            <seg type="word" me_root="not" pos="adv">Nat</seg>
+            <seg type="word" me_root="setten" pos="v%pr_1">sette</seg>
+            <seg type="word" me_root="bi" pos="prep">by</seg>
+            <seg type="word" me_root="thin" pos="pron%gen">thy</seg>
+            <seg type="word" me_root="pleinte" pos="n">pleynte</seg>
+            <seg type="word" me_root="rishe" pos="n%pl">risshes</seg>
+            <seg type="word" me_root="thre" pos="num#adj">three</seg>
+        </l>
+        <l n=" 11 ">
+            <seg type="word" me_root="at" pos="prep">At</seg>
+            <seg type="word" me_root="instaunce" pos="n">instance</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="thin" pos="pron%gen">thyn</seg>
+            <seg type="word" me_root="excessif" pos="adj">excessif</seg>
+            <seg type="word" me_root="largesse" pos="n">largesse</seg>
+        </l>
+        <l n=" 12 ">
+            <seg type="word" me_root="bicomen" pos="v%pt_1">Becam</seg>
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="min" pos="pron%gen">my</seg>
+            <seg type="word" me_root="bodi" pos="n">body</seg>
+            <seg type="word" me_root="deslave" pos="adj">delavee</seg>
+        </l>
+        <l n=" 13 ">
+            <seg type="word" me_root="hoccleve" pos="n#propn">Hoccleue</seg>
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="willen" pos="v%pr_1">wole</seg>
+            <seg type="word" me_root="hit" pos="pron">it</seg>
+            <seg type="word" me_root="to" pos="prep">to</seg>
+            <seg type="word" me_root="the" pos="pron2%obj">thee</seg>
+            <seg type="word" me_root="knouen" pos="v%ppl">knowen</seg>
+            <seg type="word" me_root="ben" pos="v%inf">be</seg>
+        </l>
+        <l n=" 14 ">
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="ladie" pos="n">lady</seg>
+            <seg type="word" me_root="moneie" pos="n">Moneie</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="the" pos="def_art">the</seg>
+            <seg type="word" me_root="world" pos="n">world</seg>
+            <seg type="word" me_root="goddesse" pos="n">goddesse</seg>
+        </l>
+    </lg>
+    <lg type="stanza" n="3" rhyme="royal">
+        <l n=" 15 ">
+            <seg type="word" me_root="that" pos="pron_rel">That</seg>
+            <seg type="word" me_root="haven" pos="v%pr_1">have</seg>
+            <seg type="word" me_root="al" pos="gram_adj">al</seg>
+            <seg type="word" me_root="thing" pos="n">thyng</seg>
+            <seg type="word" me_root="under" pos="prep">vndir</seg>
+            <seg type="word" me_root="min" pos="pron%gen">my</seg>
+            <seg type="word" me_root="buxomnesse" pos="n">buxumnesse</seg>
+        </l>
+        <l n=" 16 ">
+            <seg type="word" me_root="not" pos="adv">Nat</seg>
+            <seg type="word" me_root="setten" pos="v%pr_1">sette</seg>
+            <seg type="word" me_root="bi" pos="prep">by</seg>
+            <seg type="word" me_root="thin" pos="pron%gen">thy</seg>
+            <seg type="word" me_root="pleinte" pos="n">pleynte</seg>
+            <seg type="word" me_root="rishe" pos="n%pl">risshes</seg>
+            <seg type="word" me_root="thre" pos="num#adj">three</seg>
+        </l>
+        <l n=" 17 ">
+            <seg type="word" me_root="and" pos="conj">And</seg>
+            <seg type="word" me_root="sin" pos="conj">syn</seg>
+            <seg type="word" me_root="that" pos="part">that</seg>
+            <seg type="word" me_root="lord" pos="n%pl">lordes</seg>
+            <seg type="word" me_root="gret" pos="adj%pl">grete</seg>
+            <seg type="word" me_root="obeien" pos="v%pr_pl">obeien</seg>
+            <seg type="word" me_root="me" pos="pron2%obj">me</seg>
+        </l>
+        <l n=" 18 ">
+            <seg type="word" me_root="shulen" pos="v1%pt_1">Sholde</seg>
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="me" pos="pron2%obj">me</seg>
+            <seg type="word" me_root="dreden" pos="v%inf">dreede</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="thin" pos="pron%gen">thy</seg>
+            <seg type="word" me_root="povre" pos="adj">poore</seg>
+            <seg type="word" me_root="simplesse" pos="n">symplesse</seg>
+        </l>
+        <l n=" 19 ">
+            <seg type="word" me_root="min" pos="pron%gen">My</seg>
+            <seg type="word" me_root="golden" pos="adj">golden</seg>
+            <seg type="word" me_root="hed" pos="n1">heed</seg>
+            <seg type="word" me_root="aken" pos="v%pr_3">akith</seg>
+            <seg type="word" me_root="for" pos="prep">for</seg>
+            <seg type="word" me_root="thin" pos="pron%gen">thy</seg>
+            <seg type="word" me_root="leuednesse" pos="n">lewdnesse</seg>
+        </l>
+        <l n=" 20 ">
+            <seg type="word" me_root="gon" pos="v%imp">Go,</seg>
+            <seg type="word" me_root="povre" pos="adj">poore</seg>
+            <seg type="word" me_root="wrecche" pos="n">wrecche</seg>
+            <seg type="word" me_root="who" pos="pron%nom">who</seg>
+            <seg type="word" me_root="setten" pos="v%pr_3">settith</seg>
+            <seg type="word" me_root="ought" pos="pron">aght</seg>
+            <seg type="word" me_root="bi" pos="prep">by</seg>
+            <seg type="word" me_root="the" pos="pron2%obj">thee</seg>
+        </l>
+        <l n=" 21 ">
+            <seg type="word" me_root="hoccleve" pos="n#propn">Hoccleue</seg>
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="willen" pos="v%pr_1">wole</seg>
+            <seg type="word" me_root="hit" pos="pron">it</seg>
+            <seg type="word" me_root="to" pos="prep">to</seg>
+            <seg type="word" me_root="the" pos="pron2%obj">thee</seg>
+            <seg type="word" me_root="knouen" pos="v%ppl">knowen</seg>
+            <seg type="word" me_root="ben" pos="v%inf">be</seg>
+        </l>
+    </lg>
+    <lg type="stanza" n="4" rhyme="royal">
+        <l n=" 22 ">
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="ladie" pos="n">lady</seg>
+            <seg type="word" me_root="moneie" pos="n">Moneie</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="the" pos="def_art">the</seg>
+            <seg type="word" me_root="world" pos="n">world</seg>
+            <seg type="word" me_root="goddesse" pos="n">goddesse</seg>
+        </l>
+        <l n=" 23 ">
+            <seg type="word" me_root="that" pos="pron_rel">That</seg>
+            <seg type="word" me_root="haven" pos="v%pr_1">have</seg>
+            <seg type="word" me_root="al" pos="gram_adj">al</seg>
+            <seg type="word" me_root="thing" pos="n">thyng</seg>
+            <seg type="word" me_root="under" pos="prep">vndir</seg>
+            <seg type="word" me_root="min" pos="pron%gen">my</seg>
+            <seg type="word" me_root="buxomnesse" pos="n">buxumnesse</seg>
+        </l>
+        <l n=" 24 ">
+            <seg type="word" me_root="not" pos="adv">Nat</seg>
+            <seg type="word" me_root="setten" pos="v%pr_1">sette</seg>
+            <seg type="word" me_root="bi" pos="prep">by</seg>
+            <seg type="word" me_root="thin" pos="pron%gen">thy</seg>
+            <seg type="word" me_root="pleinte" pos="n">pleynte</seg>
+            <seg type="word" me_root="rishe" pos="n%pl">risshes</seg>
+            <seg type="word" me_root="thre" pos="num#adj">three</seg>
+        </l>
+        <l n=" 24 ">
+            <seg type="word" me_root="knouen" pos="v%ppl">knowen</seg>
+            <seg type="word" me_root="ben" pos="v%inf">be</seg>
+        </l>
+    </lg>
+    <lg type="stanza" n="5" rhyme="royal">
+        <l n=" 22 ">
+            <seg type="word" me_root="ich" pos="pron%nom">I</seg>
+            <seg type="word" me_root="ladie" pos="n">lady</seg>
+            <seg type="word" me_root="moneie" pos="n">Moneie</seg>
+            <seg type="word" me_root="of" pos="prep">of</seg>
+            <seg type="word" me_root="the" pos="def_art">the</seg>
+            <seg type="word" me_root="world" pos="n">world</seg>
+            <seg type="word" me_root="goddesse" pos="n">goddesse</seg>
+        </l>
+        <l n=" 23 ">
+            <seg type="word" me_root="that" pos="pron_rel">That</seg>
+            <seg type="word" me_root="haven" pos="v%pr_1">have</seg>
+            <seg type="word" me_root="al" pos="gram_adj">al</seg>
+            <seg type="word" me_root="thing" pos="n">thyng</seg>
+            <seg type="word" me_root="under" pos="prep">vndir</seg>
+            <seg type="word" me_root="min" pos="pron%gen">my</seg>
+            <seg type="word" me_root="buxomnesse" pos="n">buxumnesse</seg>
+        </l>
+    </lg>
+</poem>
