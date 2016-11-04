@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8">
-        <title>Request JSON Test</title>
-    </head>
+    <meta charset="utf-8">
+    <title>Request JSON Test</title>
+</head>
 <body>
+<p id ="dem"></p>
+<p id="demo"></p>
 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>
-            var c;
-                        $.getJSON('../JSON/newPoemHub.json', function (data) {
-                            alert("success");
-                             c = data;
+
+<script>
+
+    // This whole script searches the entire lexicon
+    var c;
+    var partsOfSpeech = "";
+    var text="";
+    var line=0;
+    var sentence="";
+    var found = false;
+    var dataString;
+    var returnArr = [];
+
+    $.getJSON('../JSON/newPoemHub.json', function (data) {
+//        alert("success");
+        c = data;
+        for( var i=0; i< c.container.poem.length; i++) {
+            line = 0;
+            for (var j = 0; j < c.container.poem[i].lg.length; j++) {
+                for (var k = 0; k < c.container.poem[i].lg[j].l.length; k++) {
+                    sentence = "";
+                    line++;
+                    for (var l = 0; l < c.container.poem[i].lg[j].l[k].seg.length; l++) {
+                        var word = c.container.poem[i].lg[j].l[k].seg[l];
+                        sentence += word.__text + " ";
+//                         console.log(sentence);
+
+                        if (word.__text == "that") {
+                            found = true;
+                            theword = '"' + word.__text + '"';
+                            partsofspeech = word._pos;
+                            console.log("The parts of speech is :" + partsofspeech);
+                            //returnArr[word.__text].push([[line, partsofspeech, ""]]);
+                            dataString = "Poem: " + i+ " " + theword + "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
+//                            document.getElementById("demo").innerHTML += "Poem:" + i + " " + theword + "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
+                        }
+                        ;
 
 
-                            console.log(c.container.poem[0].lg[0].l[0].seg[0]);
 
-                            $.each(c.container.poem[0].lg[0].l[0], function (i, v) {
+                    }
+                    ;
+                    if (found == true) {
+//                        console.log(sentence);
+//                        document.getElementById("demo").innerHTML += sentence +"<br>" + "<br>";
+                        dataString += sentence + "<br>" + "<br>";
+                        returnArr.push(dataString);
+                    }
+                    found = false;
+                }
+                ;
+            }
+            ;
+        };
+        for(var i=0;i<returnArr.length;i++)
+        document.getElementById("demo").innerHTML += returnArr[i];
+           });
 
-                                console.log("v: " + JSON.stringify(v));
-                                $.each(v, function (i, value) {
-                                    if (value.__text.search(new RegExp(/that/i)) != -1) {
-                                        alert("hi");
-                                        alert(value._type);
-                                        return;
-                                    }
-                                });
-                            });
 
-                        });
-        </script>
+</script>
 
 </body>
-</head>
 </html>
 
 
