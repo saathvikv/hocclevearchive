@@ -25,11 +25,10 @@ function searchLexicon(input){
                         if (word.__text == query) {
                             found = true;
                             theword = '"' + word.__text + '"';
-                            partsofspeech = word._pos;
-                            console.log("The parts of speech is :" + partsofspeech);
-                            //returnArr[word.__text].push([[line, partsofspeech, ""]]);
-                            dataString = "Poem: " + i+ " " + theword + "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
-//                            document.getElementById("demo").innerHTML += "Poem:" + i + " " + theword + "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
+                            partsOfSpeech = word._pos;
+                            console.log("The parts of speech is :" + partsOfSpeech);
+                            dataString = "Poem: " + i+ " " + theword + "," + " " + "line" + " " + line + "," + " " + partsOfSpeech + "<br />";
+//                            document.getElementById("demo").innerHTML += "Poem:" + i + " " + theword + "," + " " + "line" + " " + line + "," + " " + partsOfSpeech + "<br />";
                         }
                         ;
 
@@ -63,14 +62,14 @@ function searchPoem(poemNumber, input){
     var sentence="";
     var found = false;
     var dataString;
+    var i = poemNumber;
     var returnArr = [];
 
     $.getJSON('../JSON/newPoemHub.json', function (data) {
 //        alert("success");
         c = data;
-        for( var i = poemNumber; i = poemNumber; i++) {
-            line = 0;
-            for (var j = 0; j < c.container.poem[i].lg.length; j++) {
+
+           for (var j = 0; j < c.container.poem[i].lg.length; j++) {
                 for (var k = 0; k < c.container.poem[i].lg[j].l.length; k++) {
                     sentence = "";
                     line++;
@@ -82,10 +81,10 @@ function searchPoem(poemNumber, input){
                         if (word.__text == input) {
                             found = true;
                             theword = '"' + word.__text + '"';
-                            partsofspeech = word._pos;
-                            console.log("The parts of speech is :" + partsofspeech);
+                            partsOfSpeech = word._pos;
+                            console.log("The parts of speech is :" + partsOfSpeech);
                             //returnArr[word.__text].push([[line, partsofspeech, ""]]);
-                            dataString = "Poem: " + i+ " " + theword + "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
+                            dataString = "Poem: " + i+ " " + theword + "," + " " + "line" + " " + line + "," + " " + partsOfSpeech + "<br />";
 //                            document.getElementById("demo").innerHTML += "Poem:" + i + " " + theword + "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
                         }
                         ;
@@ -105,7 +104,7 @@ function searchPoem(poemNumber, input){
                 ;
             }
             ;
-        };
+
         // for(var i=0;i<returnArr.length;i++)
         //     document.getElementById("demo").innerHTML += returnArr[i];
         return returnArr;
