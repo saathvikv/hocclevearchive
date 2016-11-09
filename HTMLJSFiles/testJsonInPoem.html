@@ -42,8 +42,8 @@
                             console.log("The parts of speech is :" + partsofspeech);
                             document.getElementById("dem").innerHTML = "Search results for me_root= "  +root + " within poem:" + " " ;
                             //returnArr[word.__text].push([[line, partsofspeech, ""]]);
-                            dataString = "Poem: " + i+ " " + theword + "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
-                            document.getElementById("demo").innerHTML += "Poem:" + i + " " + theword + "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
+                            dataString = theword + "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
+                            document.getElementById("demo").innerHTML +=  theword + "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
                         }
                         ;
 

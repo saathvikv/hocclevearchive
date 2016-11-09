@@ -7,6 +7,9 @@ function searchLexicon(input){
     var found = false;
     var dataString;
     var returnArr = [];
+    var poem = ["The Compleynte of the Virgin before the Cross","Address to Sir John Oldcastle","La Male Regle","Balade to King Henry V","Two Balades to Henry V and the Knights of the Garter [Ballad #]","Two Balades to Henry V and the Knights of the Garter [Ballad #]","Ad Beatam Virginem","Balade, after K. Richard II's Bones . . . ","Balade to my gracious Lord of York",
+        "Ad Beatam Vriginem, the 'Mother of God' ","Balade to the Duke of Bedford","Balade to my Lord the Chancellor","Balade and Roundel or Chanceon to Mr. Henry Somer, Subtreasurer","Balade to King Henry V","Balade to King Henry V, for Money","Balade to my maister Carpenter","Balade by the Court of Good Company","Balade to the Virgin and Christ","The Letter of Cupid to Lovers, his Subjects","Regiment of Princes","Verba compilatoris ad librum [envoi at end of regiment]","Inoucacio ad patrem","ad filium honor et gloria","ad spiritum sanctum","Ad Beatam Virginem","item de beata virgine (prologus)","item de beata virgine (fabula)","the story of the monk who clad the virgin","Three Roundels - Hoccleve's appeal to Lady Money","Three Roundels - Lady Money's scornful answer","Three Roundels - Hoccleve's Humorous praise of his lady","epilogue to three roundels","Lerne to Dye.","Thomas Hoccleve's Complaint","Dialog with a Friend","POEM ","Lerne to Dye.","POEM ","Hoccleve's Dedication to Lady Westmoreland"];
+
 
     $.getJSON('../JSON/newPoemHub.json', function (query) {
 //        alert("success");
@@ -27,7 +30,7 @@ function searchLexicon(input){
                             theword = '"' + word.__text + '"';
                             partsOfSpeech = word._pos;
                             console.log("The parts of speech is :" + partsOfSpeech);
-                            dataString = "Poem: " + i+ " " + theword + "," + " " + "line" + " " + line + "," + " " + partsOfSpeech + "<br />";
+                            dataString = theword + "," + " " +"Poem: " + poem[i]+ "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
 //                            document.getElementById("demo").innerHTML += "Poem:" + i + " " + theword + "," + " " + "line" + " " + line + "," + " " + partsOfSpeech + "<br />";
                         }
                         ;
@@ -84,7 +87,7 @@ function searchPoem(poemNumber, input){
                             partsOfSpeech = word._pos;
                             console.log("The parts of speech is :" + partsOfSpeech);
                             //returnArr[word.__text].push([[line, partsofspeech, ""]]);
-                            dataString = "Poem: " + i+ " " + theword + "," + " " + "line" + " " + line + "," + " " + partsOfSpeech + "<br />";
+                            dataString = theword + "," + " " + "line" + " " + line + "," + " " + partsOfSpeech + "<br />";
 //                            document.getElementById("demo").innerHTML += "Poem:" + i + " " + theword + "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
                         }
                         ;
