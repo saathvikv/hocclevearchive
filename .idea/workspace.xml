@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7e43469-e58b-4319-8709-2c6ab045a8ae" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTMLJSFiles/TestJSONload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTMLJSFiles/js/Backup/SearchJSONbackup.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTMLJSFiles/revealModalTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JSON/Backup/newPoemHub.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTMLJSFiles/contextMenu.html" afterPath="$PROJECT_DIR$/HTMLJSFiles/contextMenu.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTMLJSFiles/indexes.html" afterPath="$PROJECT_DIR$/HTMLJSFiles/indexes.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js" afterPath="$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSON/PoemHub.json" afterPath="$PROJECT_DIR$/JSON/PoemHub.json" />
     </list>
     <ignored path="HoccleveHolographFiles.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +42,8 @@
           <file leaf-file-name="contextMenu.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="1012">
+                  <caret line="59" column="40" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="40" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -70,14 +64,14 @@
           <file leaf-file-name="indexes.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/HTMLJSFiles/indexes.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="803">
+                <state relative-caret-position="2574">
                   <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
                   <folding>
-                    <element signature="e#3312#4029#0" expanded="false" />
-                    <marker date="1478761758650" expanded="true" signature="3125:3138" ph="..." />
-                    <marker date="1478761758650" expanded="true" signature="3410:3421" ph="..." />
-                    <marker date="1478761758650" expanded="true" signature="3518:3529" ph="..." />
-                    <marker date="1478761758650" expanded="true" signature="4486:4492" ph="..." />
+                    <element signature="e#3310#4027#0" expanded="false" />
+                    <marker date="1478808669782" expanded="true" signature="3123:3136" ph="..." />
+                    <marker date="1478808669782" expanded="true" signature="3408:3419" ph="..." />
+                    <marker date="1478808669782" expanded="true" signature="3516:3527" ph="..." />
+                    <marker date="1478808669782" expanded="true" signature="4484:4490" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -98,18 +92,18 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="indexes.html" pinned="false" current-in-tab="false">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+          <file leaf-file-name="indexes.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/HTMLJSFiles/indexes.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="540">
-                  <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+                  <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
                   <folding>
-                    <element signature="e#3312#4029#0" expanded="false" />
-                    <marker date="1478761758650" expanded="true" signature="3125:3138" ph="..." />
-                    <marker date="1478761758650" expanded="true" signature="3410:3421" ph="..." />
-                    <marker date="1478761758650" expanded="true" signature="3518:3529" ph="..." />
-                    <marker date="1478761758650" expanded="true" signature="4486:4492" ph="..." />
+                    <element signature="e#3310#4027#0" expanded="false" />
+                    <marker date="1478808669782" expanded="true" signature="3123:3136" ph="..." />
+                    <marker date="1478808669782" expanded="true" signature="3408:3419" ph="..." />
+                    <marker date="1478808669782" expanded="true" signature="3516:3527" ph="..." />
+                    <marker date="1478808669782" expanded="true" signature="4484:4490" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -118,8 +112,8 @@
           <file leaf-file-name="SearchJSON.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/SearchJSON.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2673">
-                  <caret line="81" column="44" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="44" />
+                <state relative-caret-position="264">
+                  <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
                   <folding />
                 </state>
               </provider>
@@ -135,10 +129,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="testJsonInPoem.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="testJsonInPoem.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/HTMLJSFiles/testJsonInPoem.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1613">
+                <state relative-caret-position="2145">
                   <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
                   <folding />
                 </state>
@@ -200,11 +194,11 @@
         <option value="$PROJECT_DIR$/HTMLJSFiles/TestJSONload.html" />
         <option value="$PROJECT_DIR$/HTMLJSFiles/contextMenu.html" />
         <option value="$PROJECT_DIR$/HTMLJSFiles/revealModalTest.html" />
-        <option value="$PROJECT_DIR$/HTMLJSFiles/indexes.html" />
-        <option value="$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js" />
         <option value="$PROJECT_DIR$/HTMLJSFiles/js/SearchJSON.js" />
         <option value="$PROJECT_DIR$/HTMLJSFiles/testJsonInLexicon.html" />
         <option value="$PROJECT_DIR$/HTMLJSFiles/testJsonInPoem.html" />
+        <option value="$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js" />
+        <option value="$PROJECT_DIR$/HTMLJSFiles/indexes.html" />
       </list>
     </option>
   </component>
@@ -245,96 +239,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hoccleve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hoccleve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hoccleve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hoccleve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hoccleve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSON" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hoccleve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hoccleve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTMLJSFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hoccleve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hoccleve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTMLJSFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hoccleve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hoccleve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTMLJSFiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Backup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,7 +261,7 @@
       <recent name="C:\Programming\SIF\Hoccleve\JSON\Backup" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.testJsonInLexicon.html">
+  <component name="RunManager" selected="JavaScript Debug.indexes.html">
     <configuration default="false" name="contextMenu.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Hoccleve/contextMenu.html">
       <method />
     </configuration>
@@ -430,8 +339,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.testJsonInLexicon.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.indexes.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.indexes.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.testJsonInLexicon.html" />
         <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.contextMenu.html" />
         <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.revealModalTest.html" />
         <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.TestJSONload.html" />
@@ -451,21 +360,21 @@
       <workItem from="1475515134945" duration="1584000" />
       <workItem from="1477985443870" duration="4665000" />
       <workItem from="1478285113435" duration="8088000" />
-      <workItem from="1478635953659" duration="28513000" />
+      <workItem from="1478635953659" duration="29750000" />
+      <workItem from="1478804655286" duration="427000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42850000" />
+    <option name="totallyTimeSpent" value="44514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="2026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15730718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15730718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -477,6 +386,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -508,23 +418,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSON/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JSON/test.json" />
     <entry file="file://$PROJECT_DIR$/HTMLJSFiles/TestXPath.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -532,7 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -541,11 +441,11 @@
         <state relative-caret-position="363">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#3312#4029#0" expanded="false" />
-            <marker date="1478761758650" expanded="true" signature="3125:3138" ph="..." />
-            <marker date="1478761758650" expanded="true" signature="3410:3421" ph="..." />
-            <marker date="1478761758650" expanded="true" signature="3518:3529" ph="..." />
-            <marker date="1478761758650" expanded="true" signature="4486:4492" ph="..." />
+            <element signature="e#3310#4027#0" expanded="false" />
+            <marker date="1478808669782" expanded="true" signature="3123:3136" ph="..." />
+            <marker date="1478808669782" expanded="true" signature="3408:3419" ph="..." />
+            <marker date="1478808669782" expanded="true" signature="3516:3527" ph="..." />
+            <marker date="1478808669782" expanded="true" signature="4484:4490" ph="..." />
           </folding>
         </state>
       </provider>
@@ -578,7 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,7 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149556">
           <caret line="4598" column="11" selection-start-line="4598" selection-start-column="11" selection-end-line="4598" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -594,7 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1405">
           <caret line="228" column="12" selection-start-line="228" selection-start-column="12" selection-end-line="228" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -602,7 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2951">
           <caret line="958" column="38" selection-start-line="0" selection-start-column="0" selection-end-line="1352" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -610,7 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="788">
           <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -618,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="470">
           <caret line="5921" column="78" selection-start-line="5921" selection-start-column="78" selection-end-line="5921" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -626,7 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="806">
           <caret line="8354" column="9" selection-start-line="8354" selection-start-column="9" selection-end-line="8354" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -634,7 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1481">
           <caret line="6611" column="0" selection-start-line="6611" selection-start-column="0" selection-end-line="6611" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,7 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -650,7 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9273">
           <caret line="515" column="7" selection-start-line="515" selection-start-column="7" selection-end-line="515" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6930">
           <caret line="210" column="12" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1250">
           <caret line="253" column="26" selection-start-line="253" selection-start-column="26" selection-end-line="253" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33462">
           <caret line="1014" column="69" selection-start-line="1014" selection-start-column="69" selection-end-line="1014" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1613">
           <caret line="234" column="11" selection-start-line="234" selection-start-column="11" selection-end-line="234" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="567" column="18" selection-start-line="567" selection-start-column="18" selection-end-line="567" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -698,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14034">
           <caret line="645" column="9" selection-start-line="645" selection-start-column="9" selection-end-line="645" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7462">
           <caret line="223" column="38" selection-start-line="223" selection-start-column="38" selection-end-line="223" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -714,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1301">
           <caret line="1348" column="46" selection-start-line="1348" selection-start-column="46" selection-end-line="1348" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -722,9 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="46" />
-          <folding>
-            <element signature="e#1132#1139#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -732,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
           <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,19 +628,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSON/test.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/JSON/test.json" />
     <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/vendor/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8316">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1453">
           <caret line="5014" column="0" selection-start-line="5014" selection-start-column="0" selection-end-line="5014" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -805,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,35 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLJSFiles/indexes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="e#3312#4029#0" expanded="false" />
-            <marker date="1478761758650" expanded="true" signature="3125:3138" ph="..." />
-            <marker date="1478761758650" expanded="true" signature="3410:3421" ph="..." />
-            <marker date="1478761758650" expanded="true" signature="3518:3529" ph="..." />
-            <marker date="1478761758650" expanded="true" signature="4486:4492" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JSON/Backup/newPoemHub.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,14 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/SearchJSON.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2673">
-          <caret line="81" column="44" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -875,9 +708,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTMLJSFiles/testJsonInPoem.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1613">
+        <state relative-caret-position="2145">
           <caret line="65" column="7" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/SearchJSON.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLJSFiles/indexes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="e#3310#4027#0" expanded="false" />
+            <marker date="1478808669782" expanded="true" signature="3123:3136" ph="..." />
+            <marker date="1478808669782" expanded="true" signature="3408:3419" ph="..." />
+            <marker date="1478808669782" expanded="true" signature="3516:3527" ph="..." />
+            <marker date="1478808669782" expanded="true" signature="4484:4490" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

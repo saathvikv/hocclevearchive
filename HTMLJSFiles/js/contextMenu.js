@@ -2,6 +2,7 @@
 // todo: link the sources for the help.
 
 var selected_text = "";
+var poem_results;
 
 // Trigger action when the contexmenu is about to be shown
 $(document).bind("contextmenu", function (event) {
@@ -35,7 +36,6 @@ $(document).bind("mousedown", function (e) {
 
 // If the menu element is clicked
 $(".custom-menu li").click(function(){
-    var poem_results;
 
     // This is the triggered action name
     switch($(this).attr("data-action")) {
