@@ -23,23 +23,47 @@
 				// Right here is where the new html is written
 				document.write("<head>");
 				document.write("<link rel='stylesheet' href='css/foundation.css'>");
+				document.write("<link rel='stylesheet' href='css/foundation.min.css'>");
 				document.write("<link rel='stylesheet' href='css/app.css'>");
+				document.write("<link rel='stylesheet' href='css/contextMenu.css'>");
+
+				//document.write('<script src="js/SearchJSON.js"><\/script>');
 
 				// <add our javascript FILE that overrwrites the mouse right click, and trigger the menu for searching>
 
 				document.write("</head>");
-				document.write("<a href='index.html'>Home</a> &nbsp<a href='indexes.html'>EETS Facsimile Edition Title Index</a>");
+				document.write("<body onload='contextmenu()'>");
+				document.write("<a class='button' href='index.html'>Home</a> &nbsp<a class='button' href='indexes.html'>EETS Facsimile Edition Title Index </a>");
+				//document.write('<a class="button" href="#" data-open="resultReveal">Testing</a>');
 				document.write("<center><h1><b>"+poem_name+"</b></h1></center>"); // Displays name of the poem
+				//document.write("<br><br>");
+				//document.write('<a href="#" data-open="myModal">Click Me For A Modal</a>');
 
 				xmlDoc=loadXMLDoc(filename); // call to loadXMLDoc() for fetching the contents of XML file
-				//Following code goes through the DOM tree recurrsivly  and diplays the poem
 
+
+				// Start the context menu code as well as the
+				//document.write("<p>testing</p>");
+
+				// Adding the contextMenu content
+				document.write("<ul class='custom-menu'>");
+				document.write("<li data-action = 'first'>Search Current Poem</li>");
+				document.write("<li data-open='resultReveal' data-action = 'second'>Search All Poem</li>");
+				document.write('<li data-action="third">testing</li>')
+				document.write("</ul>");
+
+				// Add the context script
+				document.write("<script src='js/contextMenu.js'><\/script>");
+
+				//Following code goes through the DOM tree recursively  and displays the poem
+				// Loading the poem selected
 				var poem_tags = xmlDoc.getElementsByTagName("poem")[0].childNodes; //fetches all the "poem" tags
 				var m=(poem_tags.length-1)/2; /*possibly for formatting the tables?*/
 				var s=0;
 				var line_count=1;
 
-				for (var line_group_index = 0; line_group_index < m; line_group_index++)
+				// ZANE BLALOCK CHANGE NOTE: changing the for loop to have a -1 so I can see if the loop finishes
+				for (var line_group_index = 0; line_group_index < m-1; line_group_index++) // I added the -1 so the loop would complete allowing me to properly add the reveal section
 				{
 					document.write("<table style='width:1000px;'>");
 					var lg_tags =xmlDoc.getElementsByTagName("lg")[line_group_index].childNodes; // fetches all the "lg" tags
@@ -75,10 +99,29 @@
 						document.write("</td></tr>");
 					}
 					//document.write("<br/>");
-					document.write("</table>");
+					document.write("</table>"); // End of the table
 					document.write("<br/>");
-				}
 
+					console.log("lgi = " + line_group_index +" m = " + m);
+
+				}
+				console.log("out of loop");
+
+				// Reveal
+				document.write('<div id="resultReveal" class="reveal" data-reveal>');
+				document.write('<h2>Search Results</h2>');
+				document.write('<p id="resultSection"></p>');
+				document.write('<a class="close-button" data-close>&#215;');
+				document.write('</div>');
+
+				document.write("<script src='HTMLJSFiles/js/vendor/foundation.min.js'><\/script>");
+				document.write("<script src='HTMLJSFiles/js/vendor/what-input.js'><\/script>");
+
+
+				// This has to be last in the scripts
+				document.write('<script>$(document).foundation();<\/script>');
+
+				document.write("</body>");
 			});
 		});
 	</script>
