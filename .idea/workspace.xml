@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7e43469-e58b-4319-8709-2c6ab045a8ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTMLJSFiles/indexes.html" afterPath="$PROJECT_DIR$/HTMLJSFiles/indexes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTMLJSFiles/js/SearchJSON.js" afterPath="$PROJECT_DIR$/HTMLJSFiles/js/SearchJSON.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js" afterPath="$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js" />
     </list>
     <ignored path="HoccleveHolographFiles.iws" />
@@ -42,8 +41,8 @@
           <file leaf-file-name="contextMenu.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1012">
-                  <caret line="59" column="40" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="40" />
+                <state relative-caret-position="979">
+                  <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -93,11 +92,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-          <file leaf-file-name="indexes.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="indexes.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/HTMLJSFiles/indexes.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="540">
-                  <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+                  <caret line="26" column="59" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="59" />
                   <folding>
                     <element signature="e#3310#4027#0" expanded="false" />
                     <marker date="1478808669782" expanded="true" signature="3123:3136" ph="..." />
@@ -109,21 +108,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SearchJSON.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="SearchJSON.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/SearchJSON.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SearchJSONbackup.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/Backup/SearchJSONbackup.js">
-              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -194,11 +183,11 @@
         <option value="$PROJECT_DIR$/HTMLJSFiles/TestJSONload.html" />
         <option value="$PROJECT_DIR$/HTMLJSFiles/contextMenu.html" />
         <option value="$PROJECT_DIR$/HTMLJSFiles/revealModalTest.html" />
-        <option value="$PROJECT_DIR$/HTMLJSFiles/js/SearchJSON.js" />
         <option value="$PROJECT_DIR$/HTMLJSFiles/testJsonInLexicon.html" />
         <option value="$PROJECT_DIR$/HTMLJSFiles/testJsonInPoem.html" />
-        <option value="$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js" />
         <option value="$PROJECT_DIR$/HTMLJSFiles/indexes.html" />
+        <option value="$PROJECT_DIR$/HTMLJSFiles/js/SearchJSON.js" />
+        <option value="$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js" />
       </list>
     </option>
   </component>
@@ -361,12 +350,12 @@
       <workItem from="1477985443870" duration="4665000" />
       <workItem from="1478285113435" duration="8088000" />
       <workItem from="1478635953659" duration="29750000" />
-      <workItem from="1478804655286" duration="427000" />
+      <workItem from="1478804655286" duration="1876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44514000" />
+    <option name="totallyTimeSpent" value="45963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3026" height="2026" extended-state="6" />
@@ -690,14 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/Backup/SearchJSONbackup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTMLJSFiles/testJsonInLexicon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2277">
@@ -714,34 +695,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/SearchJSON.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTMLJSFiles/indexes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="2574">
+          <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
           <folding>
             <element signature="e#3310#4027#0" expanded="false" />
             <marker date="1478808669782" expanded="true" signature="3123:3136" ph="..." />
             <marker date="1478808669782" expanded="true" signature="3408:3419" ph="..." />
             <marker date="1478808669782" expanded="true" signature="3516:3527" ph="..." />
             <marker date="1478808669782" expanded="true" signature="4484:4490" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/Backup/SearchJSONbackup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/SearchJSON.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTMLJSFiles/js/contextMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="979">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

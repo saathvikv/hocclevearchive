@@ -54,14 +54,19 @@ $(".custom-menu li").click(function(){
             }
 
             break;
+
         case "second":
             //alert("Searching All Poems");
             console.log("Second was clicked");
+
             poem_results = searchLexicon(selected_text);
-            console.log(poem_results);
+
+            console.log("poem results: " + poem_results);
             document.getElementById("resultSection").innerHTML = poem_results;
 
+            console.log("made it to break");
             break;
+
         case "third":
             console.log("third was clicked");
             alert("Extra Content");
