@@ -35,12 +35,10 @@ function searchLexicon(input){
                             dataString = theword + "," + " " +"Poem: " + poem[i]+ "," + " " + "line" + " " + line + "," + " " + partsOfSpeech + "<br />";
 //                            document.getElementById("demo").innerHTML += "Poem:" + i + " " + theword + "," + " " + "line" + " " + line + "," + " " + partsOfSpeech + "<br />";
                         }
-                        ;
 
 
 
                     }
-                    ;
                     if (found == true) {
 //                        console.log(sentence);
 //                        document.getElementById("demo").innerHTML += sentence +"<br>" + "<br>";
@@ -49,10 +47,8 @@ function searchLexicon(input){
                     }
                     found = false;
                 }
-                ;
             }
-            ;
-        };
+        }
         console.log("dataString is: " + dataString);
 
         // Clear what may be there previous
@@ -109,12 +105,10 @@ function searchPoem(poemNumber,input){
                             console.log("dataString inside of the core for-loop: " + dataString);
 //                            document.getElementById("demo").innerHTML += "Poem:" + i + " " + theword + "," + " " + "line" + " " + line + "," + " " + partsOfSpeech + "<br />";
                         }
-                        ;
 
 
 
                     }
-                    ;
                     if (found == true) {
 //                        console.log(sentence);
 //                        document.getElementById("demo").innerHTML += sentence +"<br>" + "<br>";
@@ -123,10 +117,7 @@ function searchPoem(poemNumber,input){
                     }
                     found = false;
                 }
-                ;
             }
-            ;
-        // }; //
         console.log("dataString is: " + dataString);
 
         // Clear what may be there previous
@@ -141,74 +132,3 @@ function searchPoem(poemNumber,input){
         return returnArr;
     });
 }
-
-
-
-
-//Deprecated!
-// function searchPoem(poemNumber, input){
-//     var c;
-//     var partsOfSpeech = "";
-//     var text="";
-//     var line=0;
-//     var sentence="";
-//     var found = false;
-//     var dataString;
-//     //var returnArr = [];
-//
-//     $.getJSON('JSON/FixedCondensed.json', function (data) {
-// //        alert("success");
-//         console.log("grabbed the JSON");
-//         c = data;
-//         returnArr = [];
-//         console.log("poem number: " + poemNumber);
-//         console.log(typeof(poemNumber));
-//
-//
-//         console.log("c is: " + c.container.poem[1].lg.length);
-//         console.log("i is: " + poemNumber);
-//         for (var j = 0; j < c.container.poem[poemNumber].lg.length; j++) {
-//             for (var k = 0; k < c.container.poem[poemNumber].lg[j].l.length; k++) {
-//                 sentence = "";
-//                 line++;
-//                 for (var l = 0; l < c.container.poem[poemNumber].lg[j].l[k].seg.length; l++) {
-//                     var word = c.container.poem[poemNumber].lg[j].l[k].seg[l];
-//                     sentence += word.__text + " ";
-// //                         console.log(sentence);
-//
-//                     console.log("Looking for word: " + input);
-//                     if (word.__text == input) {
-//                         found = true;
-//                         theword = '"' + word.__text + '"';
-//                         partsOfSpeech = word._pos;
-//                         console.log("The parts of speech is :" + partsOfSpeech);
-//                         //returnArr[word.__text].push([[line, partsofspeech, ""]]);
-//                         dataString = theword + "," + " " + "line" + " " + line + "," + " " + partsOfSpeech + "<br />";
-//                         console.log("dataString: " + dataString);
-// //                            document.getElementById("demo").innerHTML += "Poem:" + i + " " + theword + "," + " " + "line" + " " + line + "," + " " + partsofspeech + "<br />";
-//                     }
-//                     ;
-//
-//
-//
-//                 }
-//                 ;
-//                 if (found == true) {
-// //                        console.log(sentence);
-// //                        document.getElementById("demo").innerHTML += sentence +"<br>" + "<br>";
-//                     dataString += sentence + "<br>" + "<br>";
-//                     returnArr.push(dataString);
-//                 }
-//                 found = false;
-//             }
-//             ;
-//         }
-//         ;
-//         console.log("dataString is: " + dataString);
-//         console.log("got to to the return for loop");
-//         for(var i=0;i<returnArr.length;i++) {
-//             document.getElementById("resultSection").innerHTML += returnArr[i];
-//         }
-//         return returnArr;
-//     });
-// }

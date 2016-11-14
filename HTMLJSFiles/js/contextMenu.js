@@ -1,5 +1,5 @@
 // Made using the guidance of several javascript forums and stackoverflow -- will list and link sources:
-// todo: link the sources for the help.
+// todo: clean code, document with comments
 
 var selected_text = "";
 var poem_results;
