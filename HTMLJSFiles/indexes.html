@@ -1,11 +1,20 @@
 ﻿<!--todo: Clean the code, document with comments-->
 
+<!--
+A lot of the code we were given had this pretty functional. We're slowly going through updating
+variable names and flow.
+
+There may also be a way to improve on the mechanics of loading the poems - but we kept it as close
+to the original code as possible.
+-->
 <!doctype html>
 <html lang="en">
 <head>
 	<title>Document</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="HTMLJSFiles/js/loadxmldoc.js" type="text/javascript"></script> <!-- Linking external javascript file for loading the contents from the XML file -->
+
+
 	<style>
 		input{
 			width: 400px;
@@ -63,6 +72,8 @@
 				var s=0;
 				var line_count=1;
 
+				// Create the body surrounding div
+//				document.write("<div id='autoselect'>");
 				// ZANE BLALOCK CHANGE NOTE: changing the for loop to have a -1 so I can see if the loop finishes
 				for (var line_group_index = 0; line_group_index < m-1; line_group_index++) // I added the -1 so the loop would complete allowing me to properly add the reveal section
 				{
@@ -93,7 +104,9 @@
 						{
 							if (y.nodeType==1)
 							{
-								document.write(y.childNodes[0].nodeValue+" ");
+							    // This is where the code prints out each word
+								//ZANE BLALOCK: Going to test adding in <span> tags for future implementation of single click selection
+								document.write("<span>"+y.childNodes[0].nodeValue+" "+"</span>");
 							}
 							y=y.nextSibling;
 						}
@@ -106,6 +119,9 @@
 					console.log("lgi = " + line_group_index +" m = " + m);
 
 				}
+				// closing div
+//				document.write("</div>");
+
 				console.log("out of loop");
 
 				// Reveal

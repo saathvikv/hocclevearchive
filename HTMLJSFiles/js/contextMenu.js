@@ -4,9 +4,37 @@
 var selected_text = "";
 var poem_results;
 
+// Auto select testing
+// function SelectText(element) {
+//     var doc = document,
+//         text = doc.getElementById(element),
+//         range,
+//         selection;
+//     if (doc.body.createTextRange) {
+//         range = document.body.createTextRange();
+//         range.moveToElementText(text);
+//         range.select();
+//     } else if (window.getSelection) {
+//         selection = window.getSelection();
+//         range = document.createRange();
+//         range.selectNodeContents(text);
+//         selection.removeAllRanges();
+//         selection.addRange(range);
+//     }
+// }
+
+
 // Trigger action when the contexmenu is about to be shown
 $(document).bind("contextmenu", function (event) {
     console.log('I was clicked!');
+
+    // This
+    // $(function() {
+    //     $('span').click(function () {
+    //         SelectText('autoselect');
+    //     });
+    // });
+
     selected_text = window.getSelection().toString().replace(" ", "");
 
     console.log('Selected text is: ' + selected_text);
