@@ -39,6 +39,7 @@ to the original code as possible.
 				document.write("<link rel='stylesheet' href='css/contextMenu.css'>");
 
 				document.write('<script src="js/SearchJSON.js"><\/script>');
+				document.write('<script src="js/selectText.js"><\/script>');
 
 				// <add our javascript FILE that overrwrites the mouse right click, and trigger the menu for searching>
 
@@ -106,7 +107,7 @@ to the original code as possible.
 							{
 							    // This is where the code prints out each word
 								//ZANE BLALOCK: Going to test adding in <span> tags for future implementation of single click selection
-								document.write("<span>"+y.childNodes[0].nodeValue+" "+"</span>");
+								document.write("<span oncontextmenu='selectText(this)'>"+y.childNodes[0].nodeValue+" "+"</span>");
 							}
 							y=y.nextSibling;
 						}

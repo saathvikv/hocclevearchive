@@ -1,6 +1,7 @@
 // Made using the guidance of several javascript forums and stackoverflow -- will list and link sources:
 // todo: clean code, document with comments
 
+
 var selected_text = "";
 var poem_results;
 
@@ -22,6 +23,26 @@ var poem_results;
 //         selection.addRange(range);
 //     }
 // }
+
+// Madison Segment select code
+var segs = document.getElementsByTagName('span');
+for(i in segs){
+    var seg = segs[i];
+    if(seg.type == "word"){
+        seg.onclick = function selectText() {
+            if (document.selection) {
+                var range = document.body.createTextRange();
+                range.moveToElementText(this);
+                range.select();
+                console.log(range)
+            } else if (window.getSelection) {
+                var range = document.createRange();
+                range.selectNode(this);
+                window.getSelection().addRange(range);
+            }
+        };
+    }
+}
 
 
 // Trigger action when the contexmenu is about to be shown
@@ -58,6 +79,7 @@ $(document).bind("contextmenu", function (event) {
 
 // If the document is clicked somewhere
 $(document).bind("mousedown", function (e) {
+    console.log("Left Click pressed");
 
     // If the clicked element is not the menu
     if (!$(e.target).parents(".custom-menu").length > 0) {
