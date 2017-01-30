@@ -127,6 +127,13 @@ to the original code as possible.
 
 				// Reveal
 				document.write('<div id="resultReveal" class="reveal" data-reveal>');
+
+//				Loading Bar
+                document.write('<span id="loadingText">Loading...</span>');
+				document.write('<div id="loadingProgress" class="success progress">');
+                document.write('<div id="loadingBar" class="progress-meter" style="width: 10%;"></div>');
+                document.write('</div>');
+
 				document.write('<h2>Search Results</h2>');
 				document.write('<p id="resultSection"></p>');
 				document.write('<a class="close-button" data-close>&#215;');

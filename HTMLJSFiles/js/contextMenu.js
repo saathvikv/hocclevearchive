@@ -56,7 +56,7 @@ $(document).bind("contextmenu", function (event) {
     //     });
     // });
 
-    selected_text = window.getSelection().toString().replace(" ", "");
+    selected_text = window.getSelection().toString().replace(" ", ""); //Removes whitespace of selection
 
     console.log('Selected text is: ' + selected_text);
     console.log('Current Poem is: ' + filename);
@@ -114,7 +114,7 @@ $(".custom-menu li").click(function(){
 
             console.log("Checking again for poem id: " + filename[1]);
 
-            poem_results = searchPoem(poem_actual_number - 1, selected_text);
+            poem_results = searchPoem(poem_actual_number - 1, selected_text); //Call the searchPoem function from SearchJSON.js
 
             console.log(poem_results);
 
