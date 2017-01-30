@@ -24,25 +24,28 @@ var poem_results;
 //     }
 // }
 
+// This was moved into a separate .js file named selectText.js and gets called with every span that has "onclickmenu='selectText(this)'"
 // Madison Segment select code
-var segs = document.getElementsByTagName('span');
-for(i in segs){
-    var seg = segs[i];
-    if(seg.type == "word"){
-        seg.onclick = function selectText() {
-            if (document.selection) {
-                var range = document.body.createTextRange();
-                range.moveToElementText(this);
-                range.select();
-                console.log(range)
-            } else if (window.getSelection) {
-                var range = document.createRange();
-                range.selectNode(this);
-                window.getSelection().addRange(range);
-            }
-        };
-    }
-}
+// var segs = document.getElementsByTagName('span');
+// for(i in segs){
+//     var seg = segs[i];
+//     if(seg.type == "word"){
+//         console.log("grabbed seg type");
+//         seg.onclick = function selectText() {
+//             console.log("I dud the selectText function!");
+//             if (document.selection) {
+//                 var range = document.body.createTextRange();
+//                 range.moveToElementText(this);
+//                 range.select();
+//                 console.log(range)
+//             } else if (window.getSelection) {
+//                 var range = document.createRange();
+//                 range.selectNode(this);
+//                 window.getSelection().addRange(range);
+//             }
+//         };
+//     }
+// }
 
 
 // Trigger action when the contexmenu is about to be shown
