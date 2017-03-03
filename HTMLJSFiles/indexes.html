@@ -12,8 +12,9 @@ to the original code as possible.
 <head>
 	<title>Document</title>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="HTMLJSFiles/js/loadxmldoc.js" type="text/javascript"></script> <!-- Linking external javascript file for loading the contents from the XML file -->
+	<script src="js/loadxmldoc.js" type="text/javascript"></script> <!-- Linking external javascript file for loading the contents from the XML file -->
 
+	<link rel="stylesheet" href="css/app.css">
 
 	<style>
 		input{
@@ -51,7 +52,7 @@ to the original code as possible.
 				//document.write("<br><br>");
 				//document.write('<a href="#" data-open="myModal">Click Me For A Modal</a>');
 
-				xmlDoc=loadXMLDoc(filename); // call to loadXMLDoc() for fetching the contents of XML file
+                var xmlDoc = loadXMLDoc(filename); // call to loadXMLDoc() for fetching the contents of XML file
 
 
 				// Start the context menu code as well as the
@@ -139,8 +140,8 @@ to the original code as possible.
 				document.write('<a class="close-button" data-close>&#215;');
 				document.write('</div>');
 
-				document.write("<script src='HTMLJSFiles/js/vendor/foundation.min.js'><\/script>");
-				document.write("<script src='HTMLJSFiles/js/vendor/what-input.js'><\/script>");
+				document.write("<script src='js/vendor/foundation.min.js'><\/script>");
+				document.write("<script src='js/vendor/what-input.js'><\/script>");
 
 
 				// This has to be last in the scripts
@@ -153,7 +154,7 @@ to the original code as possible.
 </head>
 
 <body>
-<a href="index.html">Home</a>
+<a class="button" href="index.html">Home</a>
 <center>
 	<h1>Poems by Title</h1>
 	<table>
@@ -192,9 +193,9 @@ to the original code as possible.
 		<tr><td><input type= "button" id="33-hoc.xml" class="poems" value="Lerne to Dye." /></td></tr>
 		<tr><td><input type= "button" id="34-hoc.xml" class="poems" value="Thomas Hoccleve's Complaint" /></td></tr>
 		<tr><td><input type= "button" id="35-hoc.xml" class="poems" value="Dialog with a Friend" /></td></tr>
-		<tr><td><input type= "button" id="36-hoc.xml" class="poems" value="POEM 36" /></td></tr>
+		<!--<tr><td><input type= "button" id="36-hoc.xml" class="poems" value="POEM 36" /></td></tr>-->
 		<tr><td><input type= "button" id="37-hoc.xml" class="poems" value="Lerne to Dye." /></td></tr>
-		<tr><td><input type= "button" id="38-hoc.xml" class="poems" value="POEM 38" /></td></tr>
+		<!--<tr><td><input type= "button" id="38-hoc.xml" class="poems" value="POEM 38" /></td></tr>-->
 		<tr><td><input type= "button" id="39-hoc.xml" class="poems" value="Hoccleve's Dedication to Lady Westmoreland" /></td></tr>
 	</table>
 </center>

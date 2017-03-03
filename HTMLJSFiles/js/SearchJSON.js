@@ -41,7 +41,6 @@ function searchLexicon(input){
                         }
 
 
-
                     }
                     if (found == true) {
 //                        console.log(sentence);
