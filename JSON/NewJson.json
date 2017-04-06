@@ -9,8 +9,7 @@
       ],
       "div": {
         "-style": "font-family:monospace;font-size:12px",
-        "#text": "error on line 2046 at column 1: Extra content at the end of the document
-"
+        "#text": "error on line 2046 at column 1: Extra content at the end of the document"
       }
     },
     "lg": [
