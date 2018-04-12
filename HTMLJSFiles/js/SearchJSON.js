@@ -15,7 +15,7 @@ function searchLexicon(input){
     document.getElementById("loadingBar").setAttribute('style','width: 10%');
     console.log("triggered elementById visible");
 
-    $.getJSON('JSON/FixedCondensed.json', function (data) {
+    $.getJSON('../JSON/FixedCondensed.json', function (data) {
 //        alert("success");
         c = data;
         returnArr = [];
@@ -82,7 +82,7 @@ function searchPoem(poemNumber,input){
     var dataString;
 
 
-    $.getJSON('JSON/FixedCondensed.json', function (data) {
+    $.getJSON('../JSON/FixedCondensed.json', function (data) {
 //        alert("success");
         c = data;
         returnArr = []; // reset the array
