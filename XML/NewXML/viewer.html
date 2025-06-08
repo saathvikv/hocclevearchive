@@ -30,6 +30,12 @@
     .line-number.hidden {
       visibility: hidden;
     }
+    #poem-id {
+      font-weight: bold;
+      font-size: 1.1em;
+      margin: 1em 0;
+      color: #444;
+    }
   </style>
 </head>
 <body>
@@ -38,10 +44,7 @@
 
 <label for="poemSelector">Select a poem:</label>
 <select id="poemSelector">
-  <!-- Poem filenames and display names -->
-  <option value="05-hoc.xml">Poem 05</option>
-  <option value="01-hoc.xml">Poem 01</option>
-  <option value="12-hoc.xml">Poem 12</option>
+  <option value="" disabled selected>Select a poem</option>
 </select>
 
 <div id="poem">Select a poem to view.</div>
@@ -49,6 +52,15 @@
 <script>
 const poemSelector = document.getElementById('poemSelector');
 const poemDiv = document.getElementById('poem');
+
+// Dynamically populate poems 01–39
+for (let i = 1; i <= 39; i++) {
+  const num = String(i).padStart(2, '0');
+  const option = document.createElement('option');
+  option.value = `${num}-hoc.xml`;
+  option.textContent = `Poem ${num}`;
+  poemSelector.appendChild(option);
+}
 
 poemSelector.addEventListener('change', () => {
   const filename = poemSelector.value;
@@ -63,8 +75,18 @@ async function loadPoem(filename) {
     const xmlText = await response.text();
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
+
+    const poemElement = xmlDoc.querySelector('poem');
+    const poemId = poemElement?.getAttribute('id') || 'Unknown Poem ID';
+
     const lines = xmlDoc.querySelectorAll('l');
     poemDiv.innerHTML = ''; // Clear previous poem
+
+    // Add Poem ID at the top
+    const poemIdEl = document.createElement('div');
+    poemIdEl.id = 'poem-id';
+    poemIdEl.textContent = `Poem ID: ${poemId}`;
+    poemDiv.appendChild(poemIdEl);
 
     lines.forEach((line, index) => {
       const lineNum = parseInt(line.getAttribute('n'), 10);
