@@ -44,14 +44,7 @@
 
 <label for="poemSelector">Select a poem:</label>
 <select id="poemSelector">
-  <!-- Automatically generated options for Poem 01 to 39 -->
   <option value="" disabled selected>Select a poem</option>
-  <!-- JS will also work if you want to generate dynamically -->
-  <!-- Otherwise just list all manually: -->
-  ${[...Array(39)].map((_, i) => {
-    const num = String(i + 1).padStart(2, '0');
-    return `<option value="${num}-hoc.xml">Poem ${num}</option>`;
-  }).join('\n')}
 </select>
 
 <div id="poem">Select a poem to view.</div>
@@ -59,6 +52,15 @@
 <script>
 const poemSelector = document.getElementById('poemSelector');
 const poemDiv = document.getElementById('poem');
+
+// Dynamically populate poems 01–39
+for (let i = 1; i <= 39; i++) {
+  const num = String(i).padStart(2, '0');
+  const option = document.createElement('option');
+  option.value = `${num}-hoc.xml`;
+  option.textContent = `Poem ${num}`;
+  poemSelector.appendChild(option);
+}
 
 poemSelector.addEventListener('change', () => {
   const filename = poemSelector.value;
