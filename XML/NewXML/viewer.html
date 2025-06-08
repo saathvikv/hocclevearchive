@@ -30,6 +30,12 @@
     .line-number.hidden {
       visibility: hidden;
     }
+    #poem-id {
+      font-weight: bold;
+      font-size: 1.1em;
+      margin: 1em 0;
+      color: #444;
+    }
   </style>
 </head>
 <body>
@@ -38,10 +44,14 @@
 
 <label for="poemSelector">Select a poem:</label>
 <select id="poemSelector">
-  <!-- Poem filenames and display names -->
-  <option value="05-hoc.xml">Poem 05</option>
-  <option value="01-hoc.xml">Poem 01</option>
-  <option value="12-hoc.xml">Poem 12</option>
+  <!-- Automatically generated options for Poem 01 to 39 -->
+  <option value="" disabled selected>Select a poem</option>
+  <!-- JS will also work if you want to generate dynamically -->
+  <!-- Otherwise just list all manually: -->
+  ${[...Array(39)].map((_, i) => {
+    const num = String(i + 1).padStart(2, '0');
+    return `<option value="${num}-hoc.xml">Poem ${num}</option>`;
+  }).join('\n')}
 </select>
 
 <div id="poem">Select a poem to view.</div>
@@ -63,8 +73,18 @@ async function loadPoem(filename) {
     const xmlText = await response.text();
     const parser = new DOMParser();
     const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
+
+    const poemElement = xmlDoc.querySelector('poem');
+    const poemId = poemElement?.getAttribute('id') || 'Unknown Poem ID';
+
     const lines = xmlDoc.querySelectorAll('l');
     poemDiv.innerHTML = ''; // Clear previous poem
+
+    // Add Poem ID at the top
+    const poemIdEl = document.createElement('div');
+    poemIdEl.id = 'poem-id';
+    poemIdEl.textContent = `Poem ID: ${poemId}`;
+    poemDiv.appendChild(poemIdEl);
 
     lines.forEach((line, index) => {
       const lineNum = parseInt(line.getAttribute('n'), 10);
