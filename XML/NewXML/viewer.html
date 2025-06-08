@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hoccleve Poem Archive</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #fff;
+      padding: 2em;
+      max-width: 750px;
+      margin: auto;
+    }
+    select {
+      font-size: 1rem;
+      margin-bottom: 1.5em;
+    }
+    .line {
+      display: flex;
+      white-space: pre-wrap;
+      margin-bottom: 0.4em;
+    }
+    .line-number {
+      width: 3em;
+      text-align: right;
+      margin-right: 1em;
+      color: #888;
+      font-style: italic;
+    }
+    .line-number.hidden {
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Hoccleve Poem Archive</h1>
+
+<label for="poemSelector">Select a poem:</label>
+<select id="poemSelector">
+  <!-- Poem filenames and display names -->
+  <option value="05-hoc.xml">Poem 05</option>
+  <option value="01-hoc.xml">Poem 01</option>
+  <option value="12-hoc.xml">Poem 12</option>
+</select>
+
+<div id="poem">Select a poem to view.</div>
+
+<script>
+const poemSelector = document.getElementById('poemSelector');
+const poemDiv = document.getElementById('poem');
+
+poemSelector.addEventListener('change', () => {
+  const filename = poemSelector.value;
+  if (filename) {
+    loadPoem(filename);
+  }
+});
+
+async function loadPoem(filename) {
+  try {
+    const response = await fetch(filename);
+    const xmlText = await response.text();
+    const parser = new DOMParser();
+    const xmlDoc = parser.parseFromString(xmlText, 'application/xml');
+    const lines = xmlDoc.querySelectorAll('l');
+    poemDiv.innerHTML = ''; // Clear previous poem
+
+    lines.forEach((line, index) => {
+      const lineNum = parseInt(line.getAttribute('n'), 10);
+      const words = Array.from(line.querySelectorAll('seg')).map(seg => seg.textContent).join(' ');
+
+      const lineEl = document.createElement('div');
+      lineEl.className = 'line';
+
+      const numberEl = document.createElement('span');
+      numberEl.className = 'line-number';
+      if (index % 5 !== 0) numberEl.classList.add('hidden');
+      numberEl.textContent = lineNum;
+
+      const textEl = document.createElement('span');
+      textEl.textContent = words;
+
+      lineEl.appendChild(numberEl);
+      lineEl.appendChild(textEl);
+      poemDiv.appendChild(lineEl);
+    });
+  } catch (err) {
+    poemDiv.textContent = 'Error loading poem.';
+    console.error(err);
+  }
+}
+</script>
+
+</body>
+</html>
