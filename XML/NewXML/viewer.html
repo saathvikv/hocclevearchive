@@ -36,6 +36,9 @@
       margin: 1em 0;
       color: #444;
     }
+    .stanza {
+      margin-bottom: 1.5em; /* spacing between stanzas */
+    }
   </style>
 </head>
 <body>
@@ -53,7 +56,7 @@
 const poemSelector = document.getElementById('poemSelector');
 const poemDiv = document.getElementById('poem');
 
-// Dynamically populate poems 01–39
+// Populate options Poem 01 to 39
 for (let i = 1; i <= 39; i++) {
   const num = String(i).padStart(2, '0');
   const option = document.createElement('option');
@@ -79,33 +82,47 @@ async function loadPoem(filename) {
     const poemElement = xmlDoc.querySelector('poem');
     const poemId = poemElement?.getAttribute('id') || 'Unknown Poem ID';
 
-    const lines = xmlDoc.querySelectorAll('l');
-    poemDiv.innerHTML = ''; // Clear previous poem
+    const stanzas = xmlDoc.querySelectorAll('lg[type="stanza"]');
+    poemDiv.innerHTML = '';
 
-    // Add Poem ID at the top
+    // Add Poem ID
     const poemIdEl = document.createElement('div');
     poemIdEl.id = 'poem-id';
     poemIdEl.textContent = `Poem ID: ${poemId}`;
     poemDiv.appendChild(poemIdEl);
 
-    lines.forEach((line, index) => {
-      const lineNum = parseInt(line.getAttribute('n'), 10);
-      const words = Array.from(line.querySelectorAll('seg')).map(seg => seg.textContent).join(' ');
+    let globalLineIndex = 0; // Counts lines across all stanzas
 
-      const lineEl = document.createElement('div');
-      lineEl.className = 'line';
+    // Loop through each stanza
+    stanzas.forEach((stanza) => {
+      const stanzaEl = document.createElement('div');
+      stanzaEl.className = 'stanza';
 
-      const numberEl = document.createElement('span');
-      numberEl.className = 'line-number';
-      if (index % 5 !== 0) numberEl.classList.add('hidden');
-      numberEl.textContent = lineNum;
+      const lines = stanza.querySelectorAll('l');
 
-      const textEl = document.createElement('span');
-      textEl.textContent = words;
+      lines.forEach((line) => {
+        const lineNum = parseInt(line.getAttribute('n'), 10);
+        const words = Array.from(line.querySelectorAll('seg')).map(seg => seg.textContent).join(' ');
 
-      lineEl.appendChild(numberEl);
-      lineEl.appendChild(textEl);
-      poemDiv.appendChild(lineEl);
+        const lineEl = document.createElement('div');
+        lineEl.className = 'line';
+
+        const numberEl = document.createElement('span');
+        numberEl.className = 'line-number';
+        if (globalLineIndex % 5 !== 0) numberEl.classList.add('hidden');
+        numberEl.textContent = lineNum;
+
+        const textEl = document.createElement('span');
+        textEl.textContent = words;
+
+        lineEl.appendChild(numberEl);
+        lineEl.appendChild(textEl);
+        stanzaEl.appendChild(lineEl);
+
+        globalLineIndex++; // Increment after processing each line
+      });
+
+      poemDiv.appendChild(stanzaEl);
     });
   } catch (err) {
     poemDiv.textContent = 'Error loading poem.';
