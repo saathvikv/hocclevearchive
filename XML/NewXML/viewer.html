@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Hoccleve Poem Archive</title>
   <style>
     body {
@@ -19,6 +19,7 @@
       display: flex;
       white-space: pre-wrap;
       margin-bottom: 0.4em;
+      flex-wrap: wrap;
     }
     .line-number {
       width: 3em;
@@ -36,8 +37,45 @@
       margin: 1em 0;
       color: #444;
     }
-    .stanza {
-      margin-bottom: 1.5em; /* spacing between stanzas */
+    #popup {
+      position: absolute;
+      background-color: #f9f9f9;
+      border: 1px solid #ccc;
+      padding: 10px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+      max-width: 220px;
+      font-size: 0.9rem;
+      display: none;
+      pointer-events: none;
+      z-index: 1000;
+    }
+    #side-panel {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 320px;
+      height: 100vh;
+      background: #eee;
+      box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+      padding: 1em;
+      overflow-y: auto;
+      display: none;
+      z-index: 1100;
+    }
+    #side-panel h3 {
+      margin-top: 0;
+    }
+    #side-panel .close-btn {
+      cursor: pointer;
+      color: red;
+      font-weight: bold;
+      font-size: 1.2rem;
+      float: right;
+      user-select: none;
+    }
+    .word {
+      cursor: pointer;
+      user-select: text;
     }
   </style>
 </head>
@@ -52,11 +90,25 @@
 
 <div id="poem">Select a poem to view.</div>
 
+<div id="popup"></div>
+
+<div id="side-panel">
+  <span class="close-btn" id="closePanel">&times;</span>
+  <h3>Search</h3>
+  <input type="text" id="searchInput" placeholder="Type to search..." style="width: 100%; padding: 0.3em; margin-bottom: 1em;" />
+  <div id="searchResults">Search results will appear here.</div>
+</div>
+
 <script>
 const poemSelector = document.getElementById('poemSelector');
 const poemDiv = document.getElementById('poem');
+const popup = document.getElementById('popup');
+const sidePanel = document.getElementById('side-panel');
+const closePanelBtn = document.getElementById('closePanel');
+const searchInput = document.getElementById('searchInput');
+const searchResults = document.getElementById('searchResults');
 
-// Populate options Poem 01 to 39
+// Populate poem select 01-39
 for (let i = 1; i <= 39; i++) {
   const num = String(i).padStart(2, '0');
   const option = document.createElement('option');
@@ -82,53 +134,109 @@ async function loadPoem(filename) {
     const poemElement = xmlDoc.querySelector('poem');
     const poemId = poemElement?.getAttribute('id') || 'Unknown Poem ID';
 
-    const stanzas = xmlDoc.querySelectorAll('lg[type="stanza"]');
-    poemDiv.innerHTML = '';
+    const lines = xmlDoc.querySelectorAll('l');
+    poemDiv.innerHTML = ''; // Clear previous poem
 
-    // Add Poem ID
+    // Add Poem ID at the top
     const poemIdEl = document.createElement('div');
     poemIdEl.id = 'poem-id';
     poemIdEl.textContent = `Poem ID: ${poemId}`;
     poemDiv.appendChild(poemIdEl);
 
-    let globalLineIndex = 0; // Counts lines across all stanzas
+    lines.forEach((line, index) => {
+      const lineNum = parseInt(line.getAttribute('n'), 10);
+      const words = Array.from(line.querySelectorAll('seg'));
 
-    // Loop through each stanza
-    stanzas.forEach((stanza) => {
-      const stanzaEl = document.createElement('div');
-      stanzaEl.className = 'stanza';
+      // Create line container
+      const lineEl = document.createElement('div');
+      lineEl.className = 'line';
 
-      const lines = stanza.querySelectorAll('l');
+      // Show line number every 5 lines starting from line 1
+      const numberEl = document.createElement('span');
+      numberEl.className = 'line-number';
+      if (index % 5 !== 0) numberEl.classList.add('hidden');
+      numberEl.textContent = lineNum;
+      lineEl.appendChild(numberEl);
 
-      lines.forEach((line) => {
-        const lineNum = parseInt(line.getAttribute('n'), 10);
-        const words = Array.from(line.querySelectorAll('seg')).map(seg => seg.textContent).join(' ');
+      // Add each word as span with metadata attributes
+      words.forEach(wordSeg => {
+        const span = document.createElement('span');
+        span.className = 'word';
+        span.textContent = wordSeg.textContent;
 
-        const lineEl = document.createElement('div');
-        lineEl.className = 'line';
+        // Store metadata attributes
+        span.dataset.pos = wordSeg.getAttribute('pos') || 'N/A';
+        span.dataset.root = wordSeg.getAttribute('me_root') || 'N/A';
 
-        const numberEl = document.createElement('span');
-        numberEl.className = 'line-number';
-        if (globalLineIndex % 5 !== 0) numberEl.classList.add('hidden');
-        numberEl.textContent = lineNum;
+        // Add space after each word except last
+        span.style.marginRight = '0.25em';
 
-        const textEl = document.createElement('span');
-        textEl.textContent = words;
+        // Mouseover to show popup
+        span.addEventListener('mouseenter', () => {
+          showPopupAtWord(span);
+        });
+        span.addEventListener('mouseleave', () => {
+          hidePopup();
+        });
 
-        lineEl.appendChild(numberEl);
-        lineEl.appendChild(textEl);
-        stanzaEl.appendChild(lineEl);
+        // Right click to open side panel search
+        span.addEventListener('contextmenu', (e) => {
+          e.preventDefault();
+          openSidePanel();
+        });
 
-        globalLineIndex++; // Increment after processing each line
+        lineEl.appendChild(span);
       });
 
-      poemDiv.appendChild(stanzaEl);
+      poemDiv.appendChild(lineEl);
     });
   } catch (err) {
     poemDiv.textContent = 'Error loading poem.';
     console.error(err);
   }
 }
+
+function showPopupAtWord(word) {
+  popup.innerHTML =
+    `<div><strong>POS:</strong> ${word.dataset.pos}</div>` +
+    `<div><strong>ME Root:</strong> ${word.dataset.root}</div>`;
+
+  const rect = word.getBoundingClientRect();
+  const left = rect.right + window.pageXOffset - 40;  // Shift popup 40px left
+  const top = rect.bottom + window.pageYOffset - popup.offsetHeight;
+
+  popup.style.left = `${left}px`;
+  popup.style.top = `${top}px`;
+  popup.style.display = 'block';
+  popup.style.pointerEvents = 'none';
+  popup.style.zIndex = '1000';
+}
+
+function hidePopup() {
+  popup.style.display = 'none';
+}
+
+function openSidePanel() {
+  sidePanel.style.display = 'block';
+  sidePanel.style.zIndex = '1100';
+}
+
+closePanelBtn.addEventListener('click', () => {
+  sidePanel.style.display = 'none';
+  searchInput.value = '';
+  searchResults.innerHTML = 'Search results will appear here.';
+});
+
+// Example search input handler (just dummy for now)
+searchInput.addEventListener('input', () => {
+  const query = searchInput.value.trim().toLowerCase();
+  if (!query) {
+    searchResults.innerHTML = 'Search results will appear here.';
+    return;
+  }
+  // Dummy search results
+  searchResults.innerHTML = `Searching for: <strong>${query}</strong>... (implement your search logic here)`;
+});
 </script>
 
 </body>
